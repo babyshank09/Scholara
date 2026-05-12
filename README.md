@@ -5,7 +5,7 @@ specialized for querying and reasoning over research papers.
 
 Built with an agentic LangGraph workflow, hybrid retrieval (vector + BM25 + 
 Cohere reranking), multimodal ingestion (text, tables, images), and a 
-Streamlit chat interface.
+Streamlit chat interface.   
 
 ## Features
 - 🧠 Agentic graph — orchestrator, query rewriter, retriever, and response generation nodes
