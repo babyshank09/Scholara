@@ -1,0 +1,4 @@
+{
+  "user_query": "What does Figure 4 in the paper \"Attention is All You Need\" discuss?",
+  "final_answer": "Figure 4 in the paper \"Attention is All You Need\" discusses two attention heads in layer 5 of 6 that are involved in anaphora resolution. The top part shows the full attentions for head 5, while the bottom part isolates attentions from the word ‘its’ for attention heads 5 and 6. It is noted that the attentions for this word are very sharp (Source: attention-is-all-you-need.pdf, Page: 14)."
+}

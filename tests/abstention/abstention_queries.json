@@ -1,0 +1,24 @@
+{
+  "queries": [
+    "What is the name of the GitHub repository used to host the Transformer training code?",
+    "Who is the CEO of the company that published the Transformer paper?",
+    "What is GPT-4's architecture and how does it differ from the Transformer?",
+    "What programming language was used to implement the Transformer model?",
+    "What were the hardware specifications of the machines used to train the Transformer?",
+    "What is the accuracy of the Transformer on the ImageNet classification benchmark?",
+    "What is BERT and how does it relate to the Transformer paper?",
+    "What is the name of the loss function used to train the Transformer?",
+    "What is the F1 score of the Transformer on the SQuAD reading comprehension dataset?",
+    "What does the paper say about deploying the Transformer in production systems?",
+    "What is the inference latency of the Transformer big model on a single GPU?",
+    "What is the carbon footprint of training the Transformer model?",
+    "Who funded the research that produced the Transformer paper?",
+    "What is the Transformer's performance on sentiment analysis tasks?",
+    "What is the name of the tokenizer used in the Transformer experiments?",
+    "What is the weight initialization strategy used for the Transformer?",
+    "How does the Transformer handle out-of-vocabulary words?",
+    "What is the Transformer's performance on the WMT 2016 English-German task?",
+    "What activation function is used in the attention layers of the Transformer?",
+    "What is the memory consumption of the Transformer big model during inference?"
+  ]
+}

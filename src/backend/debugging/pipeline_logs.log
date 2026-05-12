@@ -1,0 +1,1342 @@
+2026-05-13 01:42:40,986 | INFO | src.backend.utils.utils | Check for files in docs directory: ['attention-is-all-you-need.pdf']
+2026-05-13 01:42:41,038 | INFO | IngestionPipeline | 🚀 Starting RAG Ingestion Pipeline...
+2026-05-13 01:42:41,116 | INFO | IngestionPipeline | ✅ Loaded existing vectorstore
+2026-05-13 01:42:41,119 | INFO | IngestionPipeline | ✅ Loaded existing chunks list (25 chunks)
+2026-05-13 01:42:41,119 | INFO | IngestionPipeline | Uploaded files in docs directory: ['attention-is-all-you-need.pdf']
+2026-05-13 01:42:41,407 | INFO | IngestionPipeline | Files already embedded in vectorstore: ['attention-is-all-you-need.pdf']
+2026-05-13 01:42:41,407 | INFO | IngestionPipeline | File attention-is-all-you-need.pdf already embedded - skipping...
+2026-05-13 01:42:41,407 | INFO | IngestionPipeline | 🎉 Pipeline completed successfully!
+2026-05-13 01:42:41,409 | INFO | IngestionPipeline | Files already embedded in vectorstore: ['attention-is-all-you-need.pdf']
+2026-05-13 01:42:41,410 | INFO | IngestionPipeline | Files already embedded in vectorstore: ['attention-is-all-you-need.pdf']
+2026-05-13 01:42:48,407 | INFO | src.backend.utils.utils | Check for files in docs directory: ['attention-is-all-you-need.pdf']
+2026-05-13 01:42:48,409 | INFO | IngestionPipeline | Files already embedded in vectorstore: ['attention-is-all-you-need.pdf']
+2026-05-13 01:42:51,781 | INFO | orchestrator | User Query: nice man | Route Decision: chat
+2026-05-13 01:43:59,470 | INFO | src.backend.utils.utils | Check for files in docs directory: ['attention-is-all-you-need.pdf']
+2026-05-13 01:43:59,520 | INFO | IngestionPipeline | 🚀 Starting RAG Ingestion Pipeline...
+2026-05-13 01:43:59,553 | INFO | IngestionPipeline | ✅ Loaded existing vectorstore
+2026-05-13 01:43:59,556 | INFO | IngestionPipeline | ✅ Loaded existing chunks list (25 chunks)
+2026-05-13 01:43:59,556 | INFO | IngestionPipeline | Uploaded files in docs directory: ['attention-is-all-you-need.pdf']
+2026-05-13 01:43:59,765 | INFO | IngestionPipeline | Files already embedded in vectorstore: ['attention-is-all-you-need.pdf']
+2026-05-13 01:43:59,765 | INFO | IngestionPipeline | File attention-is-all-you-need.pdf already embedded - skipping...
+2026-05-13 01:43:59,766 | INFO | IngestionPipeline | 🎉 Pipeline completed successfully!
+2026-05-13 01:43:59,767 | INFO | IngestionPipeline | Files already embedded in vectorstore: ['attention-is-all-you-need.pdf']
+2026-05-13 01:43:59,768 | INFO | IngestionPipeline | Files already embedded in vectorstore: ['attention-is-all-you-need.pdf']
+2026-05-13 01:44:29,329 | INFO | src.backend.utils.utils | Check for files in docs directory: ['attention-is-all-you-need.pdf']
+2026-05-13 01:44:29,340 | INFO | IngestionPipeline | Files already embedded in vectorstore: ['attention-is-all-you-need.pdf']
+2026-05-13 01:44:31,409 | INFO | orchestrator | User Query: and . hows life | Route Decision: chat
+2026-05-13 01:56:31,776 | INFO | src.backend.utils.utils | Check for files in docs directory: ['attention-is-all-you-need.pdf']
+2026-05-13 01:56:31,824 | INFO | IngestionPipeline | 🚀 Starting RAG Ingestion Pipeline...
+2026-05-13 01:56:31,897 | INFO | IngestionPipeline | ✅ Loaded existing vectorstore
+2026-05-13 01:56:31,900 | INFO | IngestionPipeline | ✅ Loaded existing chunks list (25 chunks)
+2026-05-13 01:56:31,900 | INFO | IngestionPipeline | Uploaded files in docs directory: ['attention-is-all-you-need.pdf']
+2026-05-13 01:56:32,160 | INFO | IngestionPipeline | Files already embedded in vectorstore: ['attention-is-all-you-need.pdf']
+2026-05-13 01:56:32,160 | INFO | IngestionPipeline | File attention-is-all-you-need.pdf already embedded - skipping...
+2026-05-13 01:56:32,161 | INFO | IngestionPipeline | 🎉 Pipeline completed successfully!
+2026-05-13 01:56:32,162 | INFO | IngestionPipeline | Files already embedded in vectorstore: ['attention-is-all-you-need.pdf']
+2026-05-13 01:56:32,163 | INFO | IngestionPipeline | Files already embedded in vectorstore: ['attention-is-all-you-need.pdf']
+2026-05-13 01:59:31,304 | INFO | src.backend.utils.utils | Check for files in docs directory: ['attention-is-all-you-need.pdf']
+2026-05-13 01:59:31,365 | INFO | IngestionPipeline | 🚀 Starting RAG Ingestion Pipeline...
+2026-05-13 01:59:31,447 | INFO | IngestionPipeline | ✅ Loaded existing vectorstore
+2026-05-13 01:59:31,449 | INFO | IngestionPipeline | ✅ Loaded existing chunks list (25 chunks)
+2026-05-13 01:59:31,449 | INFO | IngestionPipeline | Uploaded files in docs directory: ['attention-is-all-you-need.pdf']
+2026-05-13 01:59:31,687 | INFO | IngestionPipeline | Files already embedded in vectorstore: ['attention-is-all-you-need.pdf']
+2026-05-13 01:59:31,737 | INFO | IngestionPipeline | File attention-is-all-you-need.pdf already embedded - skipping...
+2026-05-13 01:59:31,739 | INFO | IngestionPipeline | 🎉 Pipeline completed successfully!
+2026-05-13 01:59:31,742 | INFO | IngestionPipeline | Files already embedded in vectorstore: ['attention-is-all-you-need.pdf']
+2026-05-13 01:59:31,755 | INFO | IngestionPipeline | Files already embedded in vectorstore: ['attention-is-all-you-need.pdf']
+2026-05-13 02:00:06,027 | INFO | src.backend.utils.utils | Check for files in docs directory: ['attention-is-all-you-need.pdf']
+2026-05-13 02:00:06,074 | INFO | IngestionPipeline | Files already embedded in vectorstore: ['attention-is-all-you-need.pdf']
+2026-05-13 02:00:08,143 | INFO | orchestrator | User Query: hey wassup | Route Decision: chat
+2026-05-13 02:00:46,020 | INFO | src.backend.utils.utils | Check for files in docs directory: ['attention-is-all-you-need.pdf']
+2026-05-13 02:00:46,060 | INFO | IngestionPipeline | Files already embedded in vectorstore: ['attention-is-all-you-need.pdf']
+2026-05-13 02:00:47,179 | INFO | orchestrator | User Query: explain the transformer architecture | Route Decision: rag
+2026-05-13 02:00:48,056 | INFO | query_rewriting_agent | Latest Question: explain the transformer architecture | Rewritten Query: Explain the transformer architecture as described in the paper 'Attention is All You Need'.
+2026-05-13 02:00:48,069 | INFO | RetrievalPipeline | 🚀 Starting retrieval pipeline...
+2026-05-13 02:00:48,069 | INFO | RetrievalPipeline | Creating a hybrid retriever with vector retriever type: similarity_score_threshold...
+2026-05-13 02:00:48,078 | INFO | RetrievalPipeline | ✅ Created a hybrid retriever with vector retriever type: similarity_score_threshold successfully
+2026-05-13 02:00:48,078 | INFO | RetrievalPipeline | Generating query variations using LLM...
+2026-05-13 02:00:48,078 | INFO | RetrievalPipeline | Original Query: Explain the transformer architecture as described in the paper 'Attention is All You Need'.
+
+2026-05-13 02:00:50,342 | INFO | RetrievalPipeline | Generated Query Variations:
+2026-05-13 02:00:50,342 | INFO | RetrievalPipeline | 1. Explain the transformer architecture as described in the paper 'Attention is All You Need'.
+2026-05-13 02:00:50,342 | INFO | RetrievalPipeline | 2. What is the transformer architecture outlined in 'Attention is All You Need'?
+2026-05-13 02:00:50,342 | INFO | RetrievalPipeline | 3. Can you describe the transformer model presented in the paper 'Attention is All You Need'?
+2026-05-13 02:00:50,342 | INFO | RetrievalPipeline | 4. How does the transformer architecture work according to 'Attention is All You Need'?
+2026-05-13 02:00:50,342 | INFO | RetrievalPipeline | 5. Summarize the key features of the transformer architecture from the paper 'Attention is All You Need'.
+2026-05-13 02:00:50,342 | INFO | RetrievalPipeline | Retrieving relevant chunks for query 1: Explain the transformer architecture as described in the paper 'Attention is All You Need'.
+2026-05-13 02:00:50,968 | INFO | RetrievalPipeline | Retrieving relevant chunks for query 2: What is the transformer architecture outlined in 'Attention is All You Need'?
+2026-05-13 02:00:52,918 | INFO | RetrievalPipeline | Retrieving relevant chunks for query 3: Can you describe the transformer model presented in the paper 'Attention is All You Need'?
+2026-05-13 02:00:53,323 | INFO | RetrievalPipeline | Retrieving relevant chunks for query 4: How does the transformer architecture work according to 'Attention is All You Need'?
+2026-05-13 02:00:53,742 | INFO | RetrievalPipeline | Retrieving relevant chunks for query 5: Summarize the key features of the transformer architecture from the paper 'Attention is All You Need'.
+2026-05-13 02:00:54,301 | INFO | RetrievalPipeline | Multi-Query Retrieval Complete!
+2026-05-13 02:00:54,302 | INFO | RetrievalPipeline | Processing chunks for query 1 with 15 retrieved documents.
+2026-05-13 02:00:54,302 | INFO | RetrievalPipeline |   Position 1: Chunk_1 +0.0164 (running total: 0.0164)
+2026-05-13 02:00:54,302 | INFO | RetrievalPipeline |   Preview: The following chunk is from the source attention-is-all-you-need.pdf:
+2 Backgrou...
+2026-05-13 02:00:54,302 | INFO | RetrievalPipeline |   Position 2: Chunk_2 +0.0161 (running total: 0.0161)
+2026-05-13 02:00:54,302 | INFO | RetrievalPipeline |   Preview: The following chunk is from the source attention-is-all-you-need.pdf:
+### SEARCH...
+2026-05-13 02:00:54,302 | INFO | RetrievalPipeline |   Position 3: Chunk_3 +0.0159 (running total: 0.0159)
+2026-05-13 02:00:54,302 | INFO | RetrievalPipeline |   Preview: The following chunk is from the source attention-is-all-you-need.pdf:
+1 Introduc...
+2026-05-13 02:00:54,302 | INFO | RetrievalPipeline |   Position 4: Chunk_4 +0.0156 (running total: 0.0156)
+2026-05-13 02:00:54,302 | INFO | RetrievalPipeline |   Preview: The following chunk is from the source attention-is-all-you-need.pdf:
+**SEARCHAB...
+2026-05-13 02:00:54,302 | INFO | RetrievalPipeline |   Position 5: Chunk_5 +0.0154 (running total: 0.0154)
+2026-05-13 02:00:54,302 | INFO | RetrievalPipeline |   Preview: The following chunk is from the source attention-is-all-you-need.pdf:
+3.2.3 Appl...
+2026-05-13 02:00:54,303 | INFO | RetrievalPipeline |   Position 6: Chunk_6 +0.0152 (running total: 0.0152)
+2026-05-13 02:00:54,303 | INFO | RetrievalPipeline |   Preview: The following chunk is from the source attention-is-all-you-need.pdf:
+Illia Polo...
+2026-05-13 02:00:54,303 | INFO | RetrievalPipeline |   Position 7: Chunk_7 +0.0149 (running total: 0.0149)
+2026-05-13 02:00:54,303 | INFO | RetrievalPipeline |   Preview: The following chunk is from the source attention-is-all-you-need.pdf:
+7 Conclusi...
+2026-05-13 02:00:54,303 | INFO | RetrievalPipeline |   Position 8: Chunk_8 +0.0147 (running total: 0.0147)
+2026-05-13 02:00:54,303 | INFO | RetrievalPipeline |   Preview: The following chunk is from the source attention-is-all-you-need.pdf:
+3.1 Encode...
+2026-05-13 02:00:54,303 | INFO | RetrievalPipeline |   Position 9: Chunk_9 +0.0145 (running total: 0.0145)
+2026-05-13 02:00:54,303 | INFO | RetrievalPipeline |   Preview: The following chunk is from the source attention-is-all-you-need.pdf:
+3.3 Positi...
+2026-05-13 02:00:54,303 | INFO | RetrievalPipeline |   Position 10: Chunk_10 +0.0143 (running total: 0.0143)
+2026-05-13 02:00:54,303 | INFO | RetrievalPipeline |   Preview: The following chunk is from the source attention-is-all-you-need.pdf:
+3
+
+2023
+
+2...
+2026-05-13 02:00:54,303 | INFO | RetrievalPipeline |   Position 11: Chunk_11 +0.0141 (running total: 0.0141)
+2026-05-13 02:00:54,303 | INFO | RetrievalPipeline |   Preview: The following chunk is from the source attention-is-all-you-need.pdf:
+6 Results
+...
+2026-05-13 02:00:54,303 | INFO | RetrievalPipeline |   Position 12: Chunk_12 +0.0139 (running total: 0.0139)
+2026-05-13 02:00:54,303 | INFO | RetrievalPipeline |   Preview: The following chunk is from the source attention-is-all-you-need.pdf:
+### SEARCH...
+2026-05-13 02:00:54,303 | INFO | RetrievalPipeline |   Position 13: Chunk_13 +0.0137 (running total: 0.0137)
+2026-05-13 02:00:54,303 | INFO | RetrievalPipeline |   Preview: The following chunk is from the source attention-is-all-you-need.pdf:
+5.2 Hardwa...
+2026-05-13 02:00:54,303 | INFO | RetrievalPipeline |   Position 14: Chunk_14 +0.0135 (running total: 0.0135)
+2026-05-13 02:00:54,303 | INFO | RetrievalPipeline |   Preview: The following chunk is from the source attention-is-all-you-need.pdf:
+4 Why Self...
+2026-05-13 02:00:54,304 | INFO | RetrievalPipeline |   Position 15: Chunk_15 +0.0133 (running total: 0.0133)
+2026-05-13 02:00:54,304 | INFO | RetrievalPipeline |   Preview: The following chunk is from the source attention-is-all-you-need.pdf:
+**SEARCHAB...
+2026-05-13 02:00:54,304 | INFO | RetrievalPipeline | Processing chunks for query 2 with 15 retrieved documents.
+2026-05-13 02:00:54,304 | INFO | RetrievalPipeline |   Position 1: Chunk_2 +0.0164 (running total: 0.0325)
+2026-05-13 02:00:54,304 | INFO | RetrievalPipeline |   Preview: The following chunk is from the source attention-is-all-you-need.pdf:
+### SEARCH...
+2026-05-13 02:00:54,304 | INFO | RetrievalPipeline |   Position 2: Chunk_4 +0.0161 (running total: 0.0318)
+2026-05-13 02:00:54,304 | INFO | RetrievalPipeline |   Preview: The following chunk is from the source attention-is-all-you-need.pdf:
+**SEARCHAB...
+2026-05-13 02:00:54,304 | INFO | RetrievalPipeline |   Position 3: Chunk_12 +0.0159 (running total: 0.0298)
+2026-05-13 02:00:54,304 | INFO | RetrievalPipeline |   Preview: The following chunk is from the source attention-is-all-you-need.pdf:
+### SEARCH...
+2026-05-13 02:00:54,304 | INFO | RetrievalPipeline |   Position 4: Chunk_16 +0.0156 (running total: 0.0156)
+2026-05-13 02:00:54,304 | INFO | RetrievalPipeline |   Preview: The following chunk is from the source attention-is-all-you-need.pdf:
+### SEARCH...
+2026-05-13 02:00:54,304 | INFO | RetrievalPipeline |   Position 5: Chunk_5 +0.0154 (running total: 0.0308)
+2026-05-13 02:00:54,304 | INFO | RetrievalPipeline |   Preview: The following chunk is from the source attention-is-all-you-need.pdf:
+3.2.3 Appl...
+2026-05-13 02:00:54,304 | INFO | RetrievalPipeline |   Position 6: Chunk_1 +0.0152 (running total: 0.0315)
+2026-05-13 02:00:54,304 | INFO | RetrievalPipeline |   Preview: The following chunk is from the source attention-is-all-you-need.pdf:
+2 Backgrou...
+2026-05-13 02:00:54,304 | INFO | RetrievalPipeline |   Position 7: Chunk_6 +0.0149 (running total: 0.0301)
+2026-05-13 02:00:54,304 | INFO | RetrievalPipeline |   Preview: The following chunk is from the source attention-is-all-you-need.pdf:
+Illia Polo...
+2026-05-13 02:00:54,304 | INFO | RetrievalPipeline |   Position 8: Chunk_3 +0.0147 (running total: 0.0306)
+2026-05-13 02:00:54,304 | INFO | RetrievalPipeline |   Preview: The following chunk is from the source attention-is-all-you-need.pdf:
+1 Introduc...
+2026-05-13 02:00:54,304 | INFO | RetrievalPipeline |   Position 9: Chunk_7 +0.0145 (running total: 0.0294)
+2026-05-13 02:00:54,304 | INFO | RetrievalPipeline |   Preview: The following chunk is from the source attention-is-all-you-need.pdf:
+7 Conclusi...
+2026-05-13 02:00:54,304 | INFO | RetrievalPipeline |   Position 10: Chunk_10 +0.0143 (running total: 0.0286)
+2026-05-13 02:00:54,304 | INFO | RetrievalPipeline |   Preview: The following chunk is from the source attention-is-all-you-need.pdf:
+3
+
+2023
+
+2...
+2026-05-13 02:00:54,305 | INFO | RetrievalPipeline |   Position 11: Chunk_11 +0.0141 (running total: 0.0282)
+2026-05-13 02:00:54,305 | INFO | RetrievalPipeline |   Preview: The following chunk is from the source attention-is-all-you-need.pdf:
+6 Results
+...
+2026-05-13 02:00:54,305 | INFO | RetrievalPipeline |   Position 12: Chunk_15 +0.0139 (running total: 0.0272)
+2026-05-13 02:00:54,305 | INFO | RetrievalPipeline |   Preview: The following chunk is from the source attention-is-all-you-need.pdf:
+**SEARCHAB...
+2026-05-13 02:00:54,305 | INFO | RetrievalPipeline |   Position 13: Chunk_17 +0.0137 (running total: 0.0137)
+2026-05-13 02:00:54,305 | INFO | RetrievalPipeline |   Preview: The following chunk is from the source attention-is-all-you-need.pdf:
+**SEARCHAB...
+2026-05-13 02:00:54,305 | INFO | RetrievalPipeline |   Position 14: Chunk_18 +0.0135 (running total: 0.0135)
+2026-05-13 02:00:54,305 | INFO | RetrievalPipeline |   Preview: The following chunk is from the source attention-is-all-you-need.pdf:
+**Searchab...
+2026-05-13 02:00:54,305 | INFO | RetrievalPipeline |   Position 15: Chunk_14 +0.0133 (running total: 0.0268)
+2026-05-13 02:00:54,305 | INFO | RetrievalPipeline |   Preview: The following chunk is from the source attention-is-all-you-need.pdf:
+4 Why Self...
+2026-05-13 02:00:54,305 | INFO | RetrievalPipeline | Processing chunks for query 3 with 15 retrieved documents.
+2026-05-13 02:00:54,305 | INFO | RetrievalPipeline |   Position 1: Chunk_1 +0.0164 (running total: 0.0479)
+2026-05-13 02:00:54,305 | INFO | RetrievalPipeline |   Preview: The following chunk is from the source attention-is-all-you-need.pdf:
+2 Backgrou...
+2026-05-13 02:00:54,305 | INFO | RetrievalPipeline |   Position 2: Chunk_7 +0.0161 (running total: 0.0455)
+2026-05-13 02:00:54,305 | INFO | RetrievalPipeline |   Preview: The following chunk is from the source attention-is-all-you-need.pdf:
+7 Conclusi...
+2026-05-13 02:00:54,305 | INFO | RetrievalPipeline |   Position 3: Chunk_2 +0.0159 (running total: 0.0484)
+2026-05-13 02:00:54,305 | INFO | RetrievalPipeline |   Preview: The following chunk is from the source attention-is-all-you-need.pdf:
+### SEARCH...
+2026-05-13 02:00:54,305 | INFO | RetrievalPipeline |   Position 4: Chunk_4 +0.0156 (running total: 0.0474)
+2026-05-13 02:00:54,305 | INFO | RetrievalPipeline |   Preview: The following chunk is from the source attention-is-all-you-need.pdf:
+**SEARCHAB...
+2026-05-13 02:00:54,305 | INFO | RetrievalPipeline |   Position 5: Chunk_5 +0.0154 (running total: 0.0462)
+2026-05-13 02:00:54,305 | INFO | RetrievalPipeline |   Preview: The following chunk is from the source attention-is-all-you-need.pdf:
+3.2.3 Appl...
+2026-05-13 02:00:54,305 | INFO | RetrievalPipeline |   Position 6: Chunk_6 +0.0152 (running total: 0.0452)
+2026-05-13 02:00:54,305 | INFO | RetrievalPipeline |   Preview: The following chunk is from the source attention-is-all-you-need.pdf:
+Illia Polo...
+2026-05-13 02:00:54,305 | INFO | RetrievalPipeline |   Position 7: Chunk_3 +0.0149 (running total: 0.0455)
+2026-05-13 02:00:54,305 | INFO | RetrievalPipeline |   Preview: The following chunk is from the source attention-is-all-you-need.pdf:
+1 Introduc...
+2026-05-13 02:00:54,305 | INFO | RetrievalPipeline |   Position 8: Chunk_9 +0.0147 (running total: 0.0292)
+2026-05-13 02:00:54,305 | INFO | RetrievalPipeline |   Preview: The following chunk is from the source attention-is-all-you-need.pdf:
+3.3 Positi...
+2026-05-13 02:00:54,305 | INFO | RetrievalPipeline |   Position 9: Chunk_8 +0.0145 (running total: 0.0292)
+2026-05-13 02:00:54,305 | INFO | RetrievalPipeline |   Preview: The following chunk is from the source attention-is-all-you-need.pdf:
+3.1 Encode...
+2026-05-13 02:00:54,305 | INFO | RetrievalPipeline |   Position 10: Chunk_10 +0.0143 (running total: 0.0429)
+2026-05-13 02:00:54,305 | INFO | RetrievalPipeline |   Preview: The following chunk is from the source attention-is-all-you-need.pdf:
+3
+
+2023
+
+2...
+2026-05-13 02:00:54,306 | INFO | RetrievalPipeline |   Position 11: Chunk_11 +0.0141 (running total: 0.0423)
+2026-05-13 02:00:54,306 | INFO | RetrievalPipeline |   Preview: The following chunk is from the source attention-is-all-you-need.pdf:
+6 Results
+...
+2026-05-13 02:00:54,306 | INFO | RetrievalPipeline |   Position 12: Chunk_19 +0.0139 (running total: 0.0139)
+2026-05-13 02:00:54,306 | INFO | RetrievalPipeline |   Preview: The following chunk is from the source attention-is-all-you-need.pdf:
+[16] Łukas...
+2026-05-13 02:00:54,306 | INFO | RetrievalPipeline |   Position 13: Chunk_17 +0.0137 (running total: 0.0274)
+2026-05-13 02:00:54,306 | INFO | RetrievalPipeline |   Preview: The following chunk is from the source attention-is-all-you-need.pdf:
+**SEARCHAB...
+2026-05-13 02:00:54,306 | INFO | RetrievalPipeline |   Position 14: Chunk_20 +0.0135 (running total: 0.0135)
+2026-05-13 02:00:54,306 | INFO | RetrievalPipeline |   Preview: The following chunk is from the source attention-is-all-you-need.pdf:
+3.5 Positi...
+2026-05-13 02:00:54,306 | INFO | RetrievalPipeline |   Position 15: Chunk_18 +0.0133 (running total: 0.0268)
+2026-05-13 02:00:54,306 | INFO | RetrievalPipeline |   Preview: The following chunk is from the source attention-is-all-you-need.pdf:
+**Searchab...
+2026-05-13 02:00:54,306 | INFO | RetrievalPipeline | Processing chunks for query 4 with 15 retrieved documents.
+2026-05-13 02:00:54,306 | INFO | RetrievalPipeline |   Position 1: Chunk_2 +0.0164 (running total: 0.0648)
+2026-05-13 02:00:54,306 | INFO | RetrievalPipeline |   Preview: The following chunk is from the source attention-is-all-you-need.pdf:
+### SEARCH...
+2026-05-13 02:00:54,306 | INFO | RetrievalPipeline |   Position 2: Chunk_3 +0.0161 (running total: 0.0616)
+2026-05-13 02:00:54,306 | INFO | RetrievalPipeline |   Preview: The following chunk is from the source attention-is-all-you-need.pdf:
+1 Introduc...
+2026-05-13 02:00:54,306 | INFO | RetrievalPipeline |   Position 3: Chunk_16 +0.0159 (running total: 0.0315)
+2026-05-13 02:00:54,306 | INFO | RetrievalPipeline |   Preview: The following chunk is from the source attention-is-all-you-need.pdf:
+### SEARCH...
+2026-05-13 02:00:54,306 | INFO | RetrievalPipeline |   Position 4: Chunk_12 +0.0156 (running total: 0.0454)
+2026-05-13 02:00:54,306 | INFO | RetrievalPipeline |   Preview: The following chunk is from the source attention-is-all-you-need.pdf:
+### SEARCH...
+2026-05-13 02:00:54,306 | INFO | RetrievalPipeline |   Position 5: Chunk_5 +0.0154 (running total: 0.0615)
+2026-05-13 02:00:54,306 | INFO | RetrievalPipeline |   Preview: The following chunk is from the source attention-is-all-you-need.pdf:
+3.2.3 Appl...
+2026-05-13 02:00:54,306 | INFO | RetrievalPipeline |   Position 6: Chunk_1 +0.0152 (running total: 0.0631)
+2026-05-13 02:00:54,306 | INFO | RetrievalPipeline |   Preview: The following chunk is from the source attention-is-all-you-need.pdf:
+2 Backgrou...
+2026-05-13 02:00:54,306 | INFO | RetrievalPipeline |   Position 7: Chunk_6 +0.0149 (running total: 0.0602)
+2026-05-13 02:00:54,306 | INFO | RetrievalPipeline |   Preview: The following chunk is from the source attention-is-all-you-need.pdf:
+Illia Polo...
+2026-05-13 02:00:54,306 | INFO | RetrievalPipeline |   Position 8: Chunk_7 +0.0147 (running total: 0.0603)
+2026-05-13 02:00:54,306 | INFO | RetrievalPipeline |   Preview: The following chunk is from the source attention-is-all-you-need.pdf:
+7 Conclusi...
+2026-05-13 02:00:54,306 | INFO | RetrievalPipeline |   Position 9: Chunk_8 +0.0145 (running total: 0.0437)
+2026-05-13 02:00:54,306 | INFO | RetrievalPipeline |   Preview: The following chunk is from the source attention-is-all-you-need.pdf:
+3.1 Encode...
+2026-05-13 02:00:54,306 | INFO | RetrievalPipeline |   Position 10: Chunk_10 +0.0143 (running total: 0.0571)
+2026-05-13 02:00:54,306 | INFO | RetrievalPipeline |   Preview: The following chunk is from the source attention-is-all-you-need.pdf:
+3
+
+2023
+
+2...
+2026-05-13 02:00:54,306 | INFO | RetrievalPipeline |   Position 11: Chunk_4 +0.0141 (running total: 0.0615)
+2026-05-13 02:00:54,306 | INFO | RetrievalPipeline |   Preview: The following chunk is from the source attention-is-all-you-need.pdf:
+**SEARCHAB...
+2026-05-13 02:00:54,307 | INFO | RetrievalPipeline |   Position 12: Chunk_13 +0.0139 (running total: 0.0276)
+2026-05-13 02:00:54,307 | INFO | RetrievalPipeline |   Preview: The following chunk is from the source attention-is-all-you-need.pdf:
+5.2 Hardwa...
+2026-05-13 02:00:54,307 | INFO | RetrievalPipeline |   Position 13: Chunk_11 +0.0137 (running total: 0.0560)
+2026-05-13 02:00:54,307 | INFO | RetrievalPipeline |   Preview: The following chunk is from the source attention-is-all-you-need.pdf:
+6 Results
+...
+2026-05-13 02:00:54,307 | INFO | RetrievalPipeline |   Position 14: Chunk_15 +0.0135 (running total: 0.0407)
+2026-05-13 02:00:54,307 | INFO | RetrievalPipeline |   Preview: The following chunk is from the source attention-is-all-you-need.pdf:
+**SEARCHAB...
+2026-05-13 02:00:54,307 | INFO | RetrievalPipeline |   Position 15: Chunk_21 +0.0133 (running total: 0.0133)
+2026-05-13 02:00:54,307 | INFO | RetrievalPipeline |   Preview: The following chunk is from the source attention-is-all-you-need.pdf:
+3.2.2 Mult...
+2026-05-13 02:00:54,307 | INFO | RetrievalPipeline | Processing chunks for query 5 with 15 retrieved documents.
+2026-05-13 02:00:54,307 | INFO | RetrievalPipeline |   Position 1: Chunk_2 +0.0164 (running total: 0.0812)
+2026-05-13 02:00:54,307 | INFO | RetrievalPipeline |   Preview: The following chunk is from the source attention-is-all-you-need.pdf:
+### SEARCH...
+2026-05-13 02:00:54,307 | INFO | RetrievalPipeline |   Position 2: Chunk_4 +0.0161 (running total: 0.0776)
+2026-05-13 02:00:54,307 | INFO | RetrievalPipeline |   Preview: The following chunk is from the source attention-is-all-you-need.pdf:
+**SEARCHAB...
+2026-05-13 02:00:54,307 | INFO | RetrievalPipeline |   Position 3: Chunk_3 +0.0159 (running total: 0.0775)
+2026-05-13 02:00:54,307 | INFO | RetrievalPipeline |   Preview: The following chunk is from the source attention-is-all-you-need.pdf:
+1 Introduc...
+2026-05-13 02:00:54,309 | INFO | RetrievalPipeline |   Position 4: Chunk_8 +0.0156 (running total: 0.0593)
+2026-05-13 02:00:54,309 | INFO | RetrievalPipeline |   Preview: The following chunk is from the source attention-is-all-you-need.pdf:
+3.1 Encode...
+2026-05-13 02:00:54,309 | INFO | RetrievalPipeline |   Position 5: Chunk_5 +0.0154 (running total: 0.0769)
+2026-05-13 02:00:54,309 | INFO | RetrievalPipeline |   Preview: The following chunk is from the source attention-is-all-you-need.pdf:
+3.2.3 Appl...
+2026-05-13 02:00:54,309 | INFO | RetrievalPipeline |   Position 6: Chunk_1 +0.0152 (running total: 0.0782)
+2026-05-13 02:00:54,309 | INFO | RetrievalPipeline |   Preview: The following chunk is from the source attention-is-all-you-need.pdf:
+2 Backgrou...
+2026-05-13 02:00:54,309 | INFO | RetrievalPipeline |   Position 7: Chunk_6 +0.0149 (running total: 0.0751)
+2026-05-13 02:00:54,309 | INFO | RetrievalPipeline |   Preview: The following chunk is from the source attention-is-all-you-need.pdf:
+Illia Polo...
+2026-05-13 02:00:54,313 | INFO | RetrievalPipeline |   Position 8: Chunk_7 +0.0147 (running total: 0.0750)
+2026-05-13 02:00:54,313 | INFO | RetrievalPipeline |   Preview: The following chunk is from the source attention-is-all-you-need.pdf:
+7 Conclusi...
+2026-05-13 02:00:54,313 | INFO | RetrievalPipeline |   Position 9: Chunk_18 +0.0145 (running total: 0.0413)
+2026-05-13 02:00:54,313 | INFO | RetrievalPipeline |   Preview: The following chunk is from the source attention-is-all-you-need.pdf:
+**Searchab...
+2026-05-13 02:00:54,313 | INFO | RetrievalPipeline |   Position 10: Chunk_10 +0.0143 (running total: 0.0714)
+2026-05-13 02:00:54,313 | INFO | RetrievalPipeline |   Preview: The following chunk is from the source attention-is-all-you-need.pdf:
+3
+
+2023
+
+2...
+2026-05-13 02:00:54,313 | INFO | RetrievalPipeline |   Position 11: Chunk_11 +0.0141 (running total: 0.0700)
+2026-05-13 02:00:54,313 | INFO | RetrievalPipeline |   Preview: The following chunk is from the source attention-is-all-you-need.pdf:
+6 Results
+...
+2026-05-13 02:00:54,314 | INFO | RetrievalPipeline |   Position 12: Chunk_14 +0.0139 (running total: 0.0407)
+2026-05-13 02:00:54,314 | INFO | RetrievalPipeline |   Preview: The following chunk is from the source attention-is-all-you-need.pdf:
+4 Why Self...
+2026-05-13 02:00:54,314 | INFO | RetrievalPipeline |   Position 13: Chunk_12 +0.0137 (running total: 0.0591)
+2026-05-13 02:00:54,314 | INFO | RetrievalPipeline |   Preview: The following chunk is from the source attention-is-all-you-need.pdf:
+### SEARCH...
+2026-05-13 02:00:54,314 | INFO | RetrievalPipeline |   Position 14: Chunk_20 +0.0135 (running total: 0.0270)
+2026-05-13 02:00:54,314 | INFO | RetrievalPipeline |   Preview: The following chunk is from the source attention-is-all-you-need.pdf:
+3.5 Positi...
+2026-05-13 02:00:54,314 | INFO | RetrievalPipeline |   Position 15: Chunk_15 +0.0133 (running total: 0.0541)
+2026-05-13 02:00:54,314 | INFO | RetrievalPipeline |   Preview: The following chunk is from the source attention-is-all-you-need.pdf:
+**SEARCHAB...
+2026-05-13 02:00:54,314 | INFO | RetrievalPipeline | ✅ RRF Complete! Selected 21 unique chunks from 5 queries.
+2026-05-13 02:00:54,319 | INFO | RetrievalPipeline | Reranking chunks...
+2026-05-13 02:00:55,231 | INFO | RetrievalPipeline | ✅ Reranking complete! Exported reranked chunks to reranked_chunks.json
+2026-05-13 02:00:55,231 | INFO | RetrievalPipeline | ✅ Retrieval pipeline completed successfully!
+2026-05-13 02:00:55,236 | INFO | ResponseSynthesisPipeline | 🔍 Starting response synthesis...
+2026-05-13 02:00:55,237 | INFO | ResponseSynthesisPipeline | 📄 Constructed prompt for LLM
+2026-05-13 02:00:55,237 | INFO | ResponseSynthesisPipeline | 🖼️ Added image to LLM prompt: /9j/4AAQSk...
+2026-05-13 02:01:02,010 | INFO | ResponseSynthesisPipeline | ✅ Response synthesis completed successfully.
+2026-05-13 02:01:16,232 | INFO | src.backend.utils.utils | Check for files in docs directory: ['attention-is-all-you-need.pdf']
+2026-05-13 02:01:16,240 | INFO | IngestionPipeline | Files already embedded in vectorstore: ['attention-is-all-you-need.pdf']
+2026-05-13 02:01:16,350 | INFO | IngestionPipeline | Deleted 25 chunks from attention-is-all-you-need.pdf
+2026-05-13 02:01:16,350 | INFO | IngestionPipeline | Files already embedded in vectorstore: []
+2026-05-13 02:01:16,350 | INFO | IngestionPipeline | Current files embedded after deletion: []
+2026-05-13 02:01:16,360 | INFO | IngestionPipeline | Removed 25 chunks for: attention-is-all-you-need.pdf from all_chunks.json
+2026-05-13 02:01:16,365 | INFO | IngestionPipeline | Deleted source file from docs: attention-is-all-you-need.pdf
+2026-05-13 02:01:16,366 | INFO | IngestionPipeline | Files already embedded in vectorstore: []
+2026-05-13 02:01:18,293 | INFO | src.backend.utils.utils | Check for files in docs directory: []
+2026-05-13 02:04:02,744 | INFO | src.backend.utils.utils | Check for files in docs directory: []
+2026-05-13 02:08:05,462 | INFO | src.backend.utils.utils | Check for files in docs directory: []
+2026-05-13 02:08:10,127 | INFO | src.backend.utils.utils | Check for files in docs directory: []
+2026-05-13 02:08:10,128 | INFO | src.backend.utils.utils | Added 1 files to docs directory: ['attention-is-all-you-need.pdf']
+2026-05-13 02:08:10,257 | INFO | IngestionPipeline | 🚀 Starting RAG Ingestion Pipeline...
+2026-05-13 02:08:10,368 | INFO | IngestionPipeline | ✅ Loaded existing vectorstore
+2026-05-13 02:08:10,368 | INFO | IngestionPipeline | ✅ Loaded existing chunks list (0 chunks)
+2026-05-13 02:08:10,369 | INFO | IngestionPipeline | Uploaded files in docs directory: ['attention-is-all-you-need.pdf']
+2026-05-13 02:08:10,490 | INFO | IngestionPipeline | Files already embedded in vectorstore: []
+2026-05-13 02:08:10,490 | INFO | IngestionPipeline | New file detected: attention-is-all-you-need.pdf - embedding...
+2026-05-13 02:08:10,490 | INFO | IngestionPipeline | Ingesting and creating chunks for attention-is-all-you-need.pdf
+2026-05-13 02:08:10,490 | INFO | IngestionPipeline | Partitioning document: /Users/shankar/Documents/Perfect_Environment/Agentic_AI/Production_Grade_RAG_Application/src/backend/docs/attention-is-all-you-need.pdf
+2026-05-13 02:08:54,446 | INFO | IngestionPipeline | Extracted 220 elements
+2026-05-13 02:08:54,446 | INFO | IngestionPipeline | 🔨 Creating smart chunks...
+2026-05-13 02:08:54,448 | INFO | IngestionPipeline | ✅ Created 25 chunks
+2026-05-13 02:08:54,448 | INFO | IngestionPipeline | Processing chunk 1/25
+2026-05-13 02:08:54,448 | INFO | IngestionPipeline |      Types found: ['text']
+2026-05-13 02:08:54,448 | INFO | IngestionPipeline |      Tables: 0, Images: 0
+2026-05-13 02:08:54,448 | INFO | IngestionPipeline |      → Using raw text (no tables/images)
+2026-05-13 02:08:54,449 | INFO | IngestionPipeline | Processing chunk 2/25
+2026-05-13 02:08:54,449 | INFO | IngestionPipeline |      Types found: ['text']
+2026-05-13 02:08:54,449 | INFO | IngestionPipeline |      Tables: 0, Images: 0
+2026-05-13 02:08:54,449 | INFO | IngestionPipeline |      → Using raw text (no tables/images)
+2026-05-13 02:08:54,449 | INFO | IngestionPipeline | Processing chunk 3/25
+2026-05-13 02:08:54,449 | INFO | IngestionPipeline |      Types found: ['text']
+2026-05-13 02:08:54,449 | INFO | IngestionPipeline |      Tables: 0, Images: 0
+2026-05-13 02:08:54,449 | INFO | IngestionPipeline |      → Using raw text (no tables/images)
+2026-05-13 02:08:54,449 | INFO | IngestionPipeline | Processing chunk 4/25
+2026-05-13 02:08:54,449 | INFO | IngestionPipeline |      Types found: ['text']
+2026-05-13 02:08:54,449 | INFO | IngestionPipeline |      Tables: 0, Images: 0
+2026-05-13 02:08:54,449 | INFO | IngestionPipeline |      → Using raw text (no tables/images)
+2026-05-13 02:08:54,449 | INFO | IngestionPipeline | Processing chunk 5/25
+2026-05-13 02:08:54,449 | INFO | IngestionPipeline |      Types found: ['text', 'image']
+2026-05-13 02:08:54,449 | INFO | IngestionPipeline |      Tables: 0, Images: 1
+2026-05-13 02:09:05,072 | INFO | IngestionPipeline |      → AI summary created successfully
+2026-05-13 02:09:05,072 | INFO | IngestionPipeline |      → Enhanced content preview: ### SEARCHABLE DESCRIPTION:
+
+**Key Facts, Numbers, and Data Points:**
+- **Model Type:** Encoder-decoder structure commonly used in neural sequence transduction models.
+- **Components:** 
+  - Encoder: ...
+2026-05-13 02:09:05,073 | INFO | IngestionPipeline | Processing chunk 6/25
+2026-05-13 02:09:05,073 | INFO | IngestionPipeline |      Types found: ['text']
+2026-05-13 02:09:05,073 | INFO | IngestionPipeline |      Tables: 0, Images: 0
+2026-05-13 02:09:05,073 | INFO | IngestionPipeline |      → Using raw text (no tables/images)
+2026-05-13 02:09:05,073 | INFO | IngestionPipeline | Processing chunk 7/25
+2026-05-13 02:09:05,073 | INFO | IngestionPipeline |      Types found: ['text', 'image']
+2026-05-13 02:09:05,073 | INFO | IngestionPipeline |      Tables: 0, Images: 2
+2026-05-13 02:09:14,579 | INFO | IngestionPipeline |      → AI summary created successfully
+2026-05-13 02:09:14,580 | INFO | IngestionPipeline |      → Enhanced content preview: ### SEARCHABLE DESCRIPTION:
+
+**1. Key Facts, Numbers, and Data Points:**
+- **Attention Function:** Maps a query and a set of key-value pairs to an output.
+- **Components:** The query, keys, values, an...
+2026-05-13 02:09:14,580 | INFO | IngestionPipeline | Processing chunk 8/25
+2026-05-13 02:09:14,581 | INFO | IngestionPipeline |      Types found: ['text']
+2026-05-13 02:09:14,581 | INFO | IngestionPipeline |      Tables: 0, Images: 0
+2026-05-13 02:09:14,581 | INFO | IngestionPipeline |      → Using raw text (no tables/images)
+2026-05-13 02:09:14,581 | INFO | IngestionPipeline | Processing chunk 9/25
+2026-05-13 02:09:14,581 | INFO | IngestionPipeline |      Types found: ['text']
+2026-05-13 02:09:14,581 | INFO | IngestionPipeline |      Tables: 0, Images: 0
+2026-05-13 02:09:14,581 | INFO | IngestionPipeline |      → Using raw text (no tables/images)
+2026-05-13 02:09:14,581 | INFO | IngestionPipeline | Processing chunk 10/25
+2026-05-13 02:09:14,582 | INFO | IngestionPipeline |      Types found: ['text']
+2026-05-13 02:09:14,582 | INFO | IngestionPipeline |      Tables: 0, Images: 0
+2026-05-13 02:09:14,582 | INFO | IngestionPipeline |      → Using raw text (no tables/images)
+2026-05-13 02:09:14,582 | INFO | IngestionPipeline | Processing chunk 11/25
+2026-05-13 02:09:14,582 | INFO | IngestionPipeline |      Types found: ['text']
+2026-05-13 02:09:14,582 | INFO | IngestionPipeline |      Tables: 0, Images: 0
+2026-05-13 02:09:14,582 | INFO | IngestionPipeline |      → Using raw text (no tables/images)
+2026-05-13 02:09:14,582 | INFO | IngestionPipeline | Processing chunk 12/25
+2026-05-13 02:09:14,582 | INFO | IngestionPipeline |      Types found: ['text', 'table']
+2026-05-13 02:09:14,582 | INFO | IngestionPipeline |      Tables: 1, Images: 0
+2026-05-13 02:09:23,835 | INFO | IngestionPipeline |      → AI summary created successfully
+2026-05-13 02:09:23,836 | INFO | IngestionPipeline |      → Enhanced content preview: **SEARCHABLE DESCRIPTION:**
+
+**1. Key Facts, Numbers, and Data Points:**
+- **Embeddings and Softmax:** The document discusses the use of learned embeddings to convert input and output tokens into vect...
+2026-05-13 02:09:23,836 | INFO | IngestionPipeline | Processing chunk 13/25
+2026-05-13 02:09:23,837 | INFO | IngestionPipeline |      Types found: ['text']
+2026-05-13 02:09:23,837 | INFO | IngestionPipeline |      Tables: 0, Images: 0
+2026-05-13 02:09:23,837 | INFO | IngestionPipeline |      → Using raw text (no tables/images)
+2026-05-13 02:09:23,837 | INFO | IngestionPipeline | Processing chunk 14/25
+2026-05-13 02:09:23,837 | INFO | IngestionPipeline |      Types found: ['text']
+2026-05-13 02:09:23,837 | INFO | IngestionPipeline |      Tables: 0, Images: 0
+2026-05-13 02:09:23,837 | INFO | IngestionPipeline |      → Using raw text (no tables/images)
+2026-05-13 02:09:23,838 | INFO | IngestionPipeline | Processing chunk 15/25
+2026-05-13 02:09:23,838 | INFO | IngestionPipeline |      Types found: ['text']
+2026-05-13 02:09:23,838 | INFO | IngestionPipeline |      Tables: 0, Images: 0
+2026-05-13 02:09:23,838 | INFO | IngestionPipeline |      → Using raw text (no tables/images)
+2026-05-13 02:09:23,838 | INFO | IngestionPipeline | Processing chunk 16/25
+2026-05-13 02:09:23,838 | INFO | IngestionPipeline |      Types found: ['text']
+2026-05-13 02:09:23,838 | INFO | IngestionPipeline |      Tables: 0, Images: 0
+2026-05-13 02:09:23,838 | INFO | IngestionPipeline |      → Using raw text (no tables/images)
+2026-05-13 02:09:23,838 | INFO | IngestionPipeline | Processing chunk 17/25
+2026-05-13 02:09:23,839 | INFO | IngestionPipeline |      Types found: ['text', 'table']
+2026-05-13 02:09:23,839 | INFO | IngestionPipeline |      Tables: 1, Images: 0
+2026-05-13 02:09:35,049 | INFO | IngestionPipeline |      → AI summary created successfully
+2026-05-13 02:09:35,051 | INFO | IngestionPipeline |      → Enhanced content preview: **SEARCHABLE DESCRIPTION: Regularization Techniques in Transformer Models**
+
+**1. Key Facts, Numbers, and Data Points:**
+- **Regularization Techniques Employed:**
+  - **Residual Dropout:** Applied to ...
+2026-05-13 02:09:35,051 | INFO | IngestionPipeline | Processing chunk 18/25
+2026-05-13 02:09:35,051 | INFO | IngestionPipeline |      Types found: ['text']
+2026-05-13 02:09:35,051 | INFO | IngestionPipeline |      Tables: 0, Images: 0
+2026-05-13 02:09:35,051 | INFO | IngestionPipeline |      → Using raw text (no tables/images)
+2026-05-13 02:09:35,052 | INFO | IngestionPipeline | Processing chunk 19/25
+2026-05-13 02:09:35,052 | INFO | IngestionPipeline |      Types found: ['text', 'table']
+2026-05-13 02:09:35,052 | INFO | IngestionPipeline |      Tables: 1, Images: 0
+2026-05-13 02:09:50,963 | INFO | IngestionPipeline |      → AI summary created successfully
+2026-05-13 02:09:50,964 | INFO | IngestionPipeline |      → Enhanced content preview: **SEARCHABLE DESCRIPTION:**
+
+**1. Key Facts, Numbers, and Data Points:**
+- **Model Variations:** The document discusses variations of the Transformer model, specifically for English-to-German translat...
+2026-05-13 02:09:50,964 | INFO | IngestionPipeline | Processing chunk 20/25
+2026-05-13 02:09:50,964 | INFO | IngestionPipeline |      Types found: ['text', 'table']
+2026-05-13 02:09:50,964 | INFO | IngestionPipeline |      Tables: 1, Images: 0
+2026-05-13 02:10:00,587 | INFO | IngestionPipeline |      → AI summary created successfully
+2026-05-13 02:10:00,589 | INFO | IngestionPipeline |      → Enhanced content preview: **Searchable Description for Document Content Retrieval: English Constituency Parsing with Transformers**
+
+**1. Key Facts, Numbers, and Data Points:**
+- **Task Focus:** English constituency parsing.
+-...
+2026-05-13 02:10:00,589 | INFO | IngestionPipeline | Processing chunk 21/25
+2026-05-13 02:10:00,589 | INFO | IngestionPipeline |      Types found: ['text']
+2026-05-13 02:10:00,589 | INFO | IngestionPipeline |      Tables: 0, Images: 0
+2026-05-13 02:10:00,589 | INFO | IngestionPipeline |      → Using raw text (no tables/images)
+2026-05-13 02:10:00,589 | INFO | IngestionPipeline | Processing chunk 22/25
+2026-05-13 02:10:00,589 | INFO | IngestionPipeline |      Types found: ['text']
+2026-05-13 02:10:00,589 | INFO | IngestionPipeline |      Tables: 0, Images: 0
+2026-05-13 02:10:00,590 | INFO | IngestionPipeline |      → Using raw text (no tables/images)
+2026-05-13 02:10:00,590 | INFO | IngestionPipeline | Processing chunk 23/25
+2026-05-13 02:10:00,590 | INFO | IngestionPipeline |      Types found: ['text']
+2026-05-13 02:10:00,590 | INFO | IngestionPipeline |      Tables: 0, Images: 0
+2026-05-13 02:10:00,590 | INFO | IngestionPipeline |      → Using raw text (no tables/images)
+2026-05-13 02:10:00,590 | INFO | IngestionPipeline | Processing chunk 24/25
+2026-05-13 02:10:00,590 | INFO | IngestionPipeline |      Types found: ['text']
+2026-05-13 02:10:00,590 | INFO | IngestionPipeline |      Tables: 0, Images: 0
+2026-05-13 02:10:00,590 | INFO | IngestionPipeline |      → Using raw text (no tables/images)
+2026-05-13 02:10:00,590 | INFO | IngestionPipeline | Processing chunk 25/25
+2026-05-13 02:10:00,590 | INFO | IngestionPipeline |      Types found: ['text', 'image']
+2026-05-13 02:10:00,590 | INFO | IngestionPipeline |      Tables: 0, Images: 4
+2026-05-13 02:10:10,483 | INFO | IngestionPipeline |      → AI summary created successfully
+2026-05-13 02:10:10,484 | INFO | IngestionPipeline |      → Enhanced content preview: ### SEARCHABLE DESCRIPTION:
+
+#### 1. Key Facts, Numbers, and Data Points:
+- **Attention Mechanism**: The document discusses the attention mechanism in neural networks, particularly focusing on long-di...
+2026-05-13 02:10:10,486 | INFO | IngestionPipeline | ✅ Processed 25 chunks
+2026-05-13 02:10:10,498 | INFO | IngestionPipeline | ✅ Exported 25 chunks to attention-is-all-you-need.pdf_chunks.json
+2026-05-13 02:10:12,703 | INFO | IngestionPipeline | ✅ Added 25 chunks from attention-is-all-you-need.pdf
+2026-05-13 02:10:12,709 | INFO | IngestionPipeline | ✅ Saved 25 chunks to all_chunks.json
+2026-05-13 02:10:12,709 | INFO | IngestionPipeline | 🎉 Pipeline completed successfully!
+2026-05-13 02:10:12,781 | INFO | IngestionPipeline | Files already embedded in vectorstore: ['attention-is-all-you-need.pdf']
+2026-05-13 02:10:12,793 | INFO | src.backend.utils.utils | Check for files in docs directory: ['attention-is-all-you-need.pdf']
+2026-05-13 02:10:12,804 | INFO | IngestionPipeline | Files already embedded in vectorstore: ['attention-is-all-you-need.pdf']
+2026-05-13 02:11:45,848 | INFO | src.backend.utils.utils | Check for files in docs directory: ['attention-is-all-you-need.pdf']
+2026-05-13 02:11:45,875 | INFO | IngestionPipeline | Files already embedded in vectorstore: ['attention-is-all-you-need.pdf']
+2026-05-13 02:11:46,986 | INFO | orchestrator | User Query: what does figure 4 in this paper talk about? | Route Decision: rag
+2026-05-13 02:11:48,190 | INFO | query_rewriting_agent | Latest Question: what does figure 4 in this paper talk about? | Rewritten Query: What does Figure 4 in the paper "Attention is All You Need" discuss?
+2026-05-13 02:11:48,204 | INFO | RetrievalPipeline | 🚀 Starting retrieval pipeline...
+2026-05-13 02:11:48,204 | INFO | RetrievalPipeline | Creating a hybrid retriever with vector retriever type: similarity_score_threshold...
+2026-05-13 02:11:48,212 | INFO | RetrievalPipeline | ✅ Created a hybrid retriever with vector retriever type: similarity_score_threshold successfully
+2026-05-13 02:11:48,212 | INFO | RetrievalPipeline | Generating query variations using LLM...
+2026-05-13 02:11:48,212 | INFO | RetrievalPipeline | Original Query: What does Figure 4 in the paper "Attention is All You Need" discuss?
+
+2026-05-13 02:11:50,160 | INFO | RetrievalPipeline | Generated Query Variations:
+2026-05-13 02:11:50,161 | INFO | RetrievalPipeline | 1. What does Figure 4 in the paper "Attention is All You Need" discuss?
+2026-05-13 02:11:50,161 | INFO | RetrievalPipeline | 2. Can you explain the content of Figure 4 in "Attention is All You Need"?
+2026-05-13 02:11:50,161 | INFO | RetrievalPipeline | 3. What is illustrated in Figure 4 of the "Attention is All You Need" paper?
+2026-05-13 02:11:50,161 | INFO | RetrievalPipeline | 4. What information is presented in Figure 4 from the "Attention is All You Need" study?
+2026-05-13 02:11:50,161 | INFO | RetrievalPipeline | 5. What key points are shown in Figure 4 of the paper titled "Attention is All You Need"?
+2026-05-13 02:11:50,161 | INFO | RetrievalPipeline | Retrieving relevant chunks for query 1: What does Figure 4 in the paper "Attention is All You Need" discuss?
+2026-05-13 02:11:50,581 | INFO | RetrievalPipeline | Retrieving relevant chunks for query 2: Can you explain the content of Figure 4 in "Attention is All You Need"?
+2026-05-13 02:11:52,578 | INFO | RetrievalPipeline | Retrieving relevant chunks for query 3: What is illustrated in Figure 4 of the "Attention is All You Need" paper?
+2026-05-13 02:11:52,900 | INFO | RetrievalPipeline | Retrieving relevant chunks for query 4: What information is presented in Figure 4 from the "Attention is All You Need" study?
+2026-05-13 02:11:55,770 | INFO | RetrievalPipeline | Retrieving relevant chunks for query 5: What key points are shown in Figure 4 of the paper titled "Attention is All You Need"?
+2026-05-13 02:11:56,272 | INFO | RetrievalPipeline | Multi-Query Retrieval Complete!
+2026-05-13 02:11:56,272 | INFO | RetrievalPipeline | Processing chunks for query 1 with 14 retrieved documents.
+2026-05-13 02:11:56,273 | INFO | RetrievalPipeline |   Position 1: Chunk_1 +0.0164 (running total: 0.0164)
+2026-05-13 02:11:56,273 | INFO | RetrievalPipeline |   Preview: The following chunk is from the source attention-is-all-you-need.pdf:
+### SEARCH...
+2026-05-13 02:11:56,273 | INFO | RetrievalPipeline |   Position 2: Chunk_2 +0.0161 (running total: 0.0161)
+2026-05-13 02:11:56,273 | INFO | RetrievalPipeline |   Preview: The following chunk is from the source attention-is-all-you-need.pdf:
+### SEARCH...
+2026-05-13 02:11:56,273 | INFO | RetrievalPipeline |   Position 3: Chunk_3 +0.0159 (running total: 0.0159)
+2026-05-13 02:11:56,273 | INFO | RetrievalPipeline |   Preview: The following chunk is from the source attention-is-all-you-need.pdf:
+3
+
+2023
+
+2...
+2026-05-13 02:11:56,273 | INFO | RetrievalPipeline |   Position 4: Chunk_4 +0.0156 (running total: 0.0156)
+2026-05-13 02:11:56,273 | INFO | RetrievalPipeline |   Preview: The following chunk is from the source attention-is-all-you-need.pdf:
+3.2.3 Appl...
+2026-05-13 02:11:56,273 | INFO | RetrievalPipeline |   Position 5: Chunk_5 +0.0154 (running total: 0.0154)
+2026-05-13 02:11:56,273 | INFO | RetrievalPipeline |   Preview: The following chunk is from the source attention-is-all-you-need.pdf:
+3.2.2 Mult...
+2026-05-13 02:11:56,273 | INFO | RetrievalPipeline |   Position 6: Chunk_6 +0.0152 (running total: 0.0152)
+2026-05-13 02:11:56,273 | INFO | RetrievalPipeline |   Preview: The following chunk is from the source attention-is-all-you-need.pdf:
+3.2.1 Scal...
+2026-05-13 02:11:56,273 | INFO | RetrievalPipeline |   Position 7: Chunk_7 +0.0149 (running total: 0.0149)
+2026-05-13 02:11:56,273 | INFO | RetrievalPipeline |   Preview: The following chunk is from the source attention-is-all-you-need.pdf:
+As side be...
+2026-05-13 02:11:56,273 | INFO | RetrievalPipeline |   Position 8: Chunk_8 +0.0147 (running total: 0.0147)
+2026-05-13 02:11:56,273 | INFO | RetrievalPipeline |   Preview: The following chunk is from the source attention-is-all-you-need.pdf:
+2 Backgrou...
+2026-05-13 02:11:56,273 | INFO | RetrievalPipeline |   Position 9: Chunk_9 +0.0145 (running total: 0.0145)
+2026-05-13 02:11:56,273 | INFO | RetrievalPipeline |   Preview: The following chunk is from the source attention-is-all-you-need.pdf:
+3.1 Encode...
+2026-05-13 02:11:56,274 | INFO | RetrievalPipeline |   Position 10: Chunk_10 +0.0143 (running total: 0.0143)
+2026-05-13 02:11:56,274 | INFO | RetrievalPipeline |   Preview: The following chunk is from the source attention-is-all-you-need.pdf:
+4 Why Self...
+2026-05-13 02:11:56,274 | INFO | RetrievalPipeline |   Position 11: Chunk_11 +0.0141 (running total: 0.0141)
+2026-05-13 02:11:56,274 | INFO | RetrievalPipeline |   Preview: The following chunk is from the source attention-is-all-you-need.pdf:
+### SEARCH...
+2026-05-13 02:11:56,274 | INFO | RetrievalPipeline |   Position 12: Chunk_12 +0.0139 (running total: 0.0139)
+2026-05-13 02:11:56,274 | INFO | RetrievalPipeline |   Preview: The following chunk is from the source attention-is-all-you-need.pdf:
+**Searchab...
+2026-05-13 02:11:56,274 | INFO | RetrievalPipeline |   Position 13: Chunk_13 +0.0137 (running total: 0.0137)
+2026-05-13 02:11:56,274 | INFO | RetrievalPipeline |   Preview: The following chunk is from the source attention-is-all-you-need.pdf:
+**SEARCHAB...
+2026-05-13 02:11:56,274 | INFO | RetrievalPipeline |   Position 14: Chunk_14 +0.0135 (running total: 0.0135)
+2026-05-13 02:11:56,274 | INFO | RetrievalPipeline |   Preview: The following chunk is from the source attention-is-all-you-need.pdf:
+**SEARCHAB...
+2026-05-13 02:11:56,274 | INFO | RetrievalPipeline | Processing chunks for query 2 with 15 retrieved documents.
+2026-05-13 02:11:56,274 | INFO | RetrievalPipeline |   Position 1: Chunk_2 +0.0164 (running total: 0.0325)
+2026-05-13 02:11:56,274 | INFO | RetrievalPipeline |   Preview: The following chunk is from the source attention-is-all-you-need.pdf:
+### SEARCH...
+2026-05-13 02:11:56,274 | INFO | RetrievalPipeline |   Position 2: Chunk_4 +0.0161 (running total: 0.0318)
+2026-05-13 02:11:56,274 | INFO | RetrievalPipeline |   Preview: The following chunk is from the source attention-is-all-you-need.pdf:
+3.2.3 Appl...
+2026-05-13 02:11:56,274 | INFO | RetrievalPipeline |   Position 3: Chunk_3 +0.0159 (running total: 0.0317)
+2026-05-13 02:11:56,274 | INFO | RetrievalPipeline |   Preview: The following chunk is from the source attention-is-all-you-need.pdf:
+3
+
+2023
+
+2...
+2026-05-13 02:11:56,275 | INFO | RetrievalPipeline |   Position 4: Chunk_1 +0.0156 (running total: 0.0320)
+2026-05-13 02:11:56,275 | INFO | RetrievalPipeline |   Preview: The following chunk is from the source attention-is-all-you-need.pdf:
+### SEARCH...
+2026-05-13 02:11:56,275 | INFO | RetrievalPipeline |   Position 5: Chunk_6 +0.0154 (running total: 0.0305)
+2026-05-13 02:11:56,275 | INFO | RetrievalPipeline |   Preview: The following chunk is from the source attention-is-all-you-need.pdf:
+3.2.1 Scal...
+2026-05-13 02:11:56,275 | INFO | RetrievalPipeline |   Position 6: Chunk_8 +0.0152 (running total: 0.0299)
+2026-05-13 02:11:56,275 | INFO | RetrievalPipeline |   Preview: The following chunk is from the source attention-is-all-you-need.pdf:
+2 Backgrou...
+2026-05-13 02:11:56,275 | INFO | RetrievalPipeline |   Position 7: Chunk_7 +0.0149 (running total: 0.0299)
+2026-05-13 02:11:56,275 | INFO | RetrievalPipeline |   Preview: The following chunk is from the source attention-is-all-you-need.pdf:
+As side be...
+2026-05-13 02:11:56,275 | INFO | RetrievalPipeline |   Position 8: Chunk_9 +0.0147 (running total: 0.0292)
+2026-05-13 02:11:56,275 | INFO | RetrievalPipeline |   Preview: The following chunk is from the source attention-is-all-you-need.pdf:
+3.1 Encode...
+2026-05-13 02:11:56,275 | INFO | RetrievalPipeline |   Position 9: Chunk_13 +0.0145 (running total: 0.0282)
+2026-05-13 02:11:56,275 | INFO | RetrievalPipeline |   Preview: The following chunk is from the source attention-is-all-you-need.pdf:
+**SEARCHAB...
+2026-05-13 02:11:56,275 | INFO | RetrievalPipeline |   Position 10: Chunk_5 +0.0143 (running total: 0.0297)
+2026-05-13 02:11:56,275 | INFO | RetrievalPipeline |   Preview: The following chunk is from the source attention-is-all-you-need.pdf:
+3.2.2 Mult...
+2026-05-13 02:11:56,275 | INFO | RetrievalPipeline |   Position 11: Chunk_10 +0.0141 (running total: 0.0284)
+2026-05-13 02:11:56,275 | INFO | RetrievalPipeline |   Preview: The following chunk is from the source attention-is-all-you-need.pdf:
+4 Why Self...
+2026-05-13 02:11:56,275 | INFO | RetrievalPipeline |   Position 12: Chunk_15 +0.0139 (running total: 0.0139)
+2026-05-13 02:11:56,275 | INFO | RetrievalPipeline |   Preview: The following chunk is from the source attention-is-all-you-need.pdf:
+**SEARCHAB...
+2026-05-13 02:11:56,275 | INFO | RetrievalPipeline |   Position 13: Chunk_16 +0.0137 (running total: 0.0137)
+2026-05-13 02:11:56,275 | INFO | RetrievalPipeline |   Preview: The following chunk is from the source attention-is-all-you-need.pdf:
+6 Results
+...
+2026-05-13 02:11:56,275 | INFO | RetrievalPipeline |   Position 14: Chunk_17 +0.0135 (running total: 0.0135)
+2026-05-13 02:11:56,275 | INFO | RetrievalPipeline |   Preview: The following chunk is from the source attention-is-all-you-need.pdf:
+[16] Łukas...
+2026-05-13 02:11:56,275 | INFO | RetrievalPipeline |   Position 15: Chunk_11 +0.0133 (running total: 0.0274)
+2026-05-13 02:11:56,275 | INFO | RetrievalPipeline |   Preview: The following chunk is from the source attention-is-all-you-need.pdf:
+### SEARCH...
+2026-05-13 02:11:56,275 | INFO | RetrievalPipeline | Processing chunks for query 3 with 14 retrieved documents.
+2026-05-13 02:11:56,275 | INFO | RetrievalPipeline |   Position 1: Chunk_3 +0.0164 (running total: 0.0481)
+2026-05-13 02:11:56,275 | INFO | RetrievalPipeline |   Preview: The following chunk is from the source attention-is-all-you-need.pdf:
+3
+
+2023
+
+2...
+2026-05-13 02:11:56,276 | INFO | RetrievalPipeline |   Position 2: Chunk_1 +0.0161 (running total: 0.0481)
+2026-05-13 02:11:56,276 | INFO | RetrievalPipeline |   Preview: The following chunk is from the source attention-is-all-you-need.pdf:
+### SEARCH...
+2026-05-13 02:11:56,276 | INFO | RetrievalPipeline |   Position 3: Chunk_2 +0.0159 (running total: 0.0484)
+2026-05-13 02:11:56,276 | INFO | RetrievalPipeline |   Preview: The following chunk is from the source attention-is-all-you-need.pdf:
+### SEARCH...
+2026-05-13 02:11:56,276 | INFO | RetrievalPipeline |   Position 4: Chunk_4 +0.0156 (running total: 0.0474)
+2026-05-13 02:11:56,276 | INFO | RetrievalPipeline |   Preview: The following chunk is from the source attention-is-all-you-need.pdf:
+3.2.3 Appl...
+2026-05-13 02:11:56,276 | INFO | RetrievalPipeline |   Position 5: Chunk_5 +0.0154 (running total: 0.0451)
+2026-05-13 02:11:56,276 | INFO | RetrievalPipeline |   Preview: The following chunk is from the source attention-is-all-you-need.pdf:
+3.2.2 Mult...
+2026-05-13 02:11:56,276 | INFO | RetrievalPipeline |   Position 6: Chunk_6 +0.0152 (running total: 0.0457)
+2026-05-13 02:11:56,276 | INFO | RetrievalPipeline |   Preview: The following chunk is from the source attention-is-all-you-need.pdf:
+3.2.1 Scal...
+2026-05-13 02:11:56,276 | INFO | RetrievalPipeline |   Position 7: Chunk_8 +0.0149 (running total: 0.0448)
+2026-05-13 02:11:56,276 | INFO | RetrievalPipeline |   Preview: The following chunk is from the source attention-is-all-you-need.pdf:
+2 Backgrou...
+2026-05-13 02:11:56,276 | INFO | RetrievalPipeline |   Position 8: Chunk_9 +0.0147 (running total: 0.0439)
+2026-05-13 02:11:56,276 | INFO | RetrievalPipeline |   Preview: The following chunk is from the source attention-is-all-you-need.pdf:
+3.1 Encode...
+2026-05-13 02:11:56,276 | INFO | RetrievalPipeline |   Position 9: Chunk_7 +0.0145 (running total: 0.0443)
+2026-05-13 02:11:56,276 | INFO | RetrievalPipeline |   Preview: The following chunk is from the source attention-is-all-you-need.pdf:
+As side be...
+2026-05-13 02:11:56,276 | INFO | RetrievalPipeline |   Position 10: Chunk_10 +0.0143 (running total: 0.0427)
+2026-05-13 02:11:56,276 | INFO | RetrievalPipeline |   Preview: The following chunk is from the source attention-is-all-you-need.pdf:
+4 Why Self...
+2026-05-13 02:11:56,276 | INFO | RetrievalPipeline |   Position 11: Chunk_16 +0.0141 (running total: 0.0278)
+2026-05-13 02:11:56,276 | INFO | RetrievalPipeline |   Preview: The following chunk is from the source attention-is-all-you-need.pdf:
+6 Results
+...
+2026-05-13 02:11:56,276 | INFO | RetrievalPipeline |   Position 12: Chunk_15 +0.0139 (running total: 0.0278)
+2026-05-13 02:11:56,276 | INFO | RetrievalPipeline |   Preview: The following chunk is from the source attention-is-all-you-need.pdf:
+**SEARCHAB...
+2026-05-13 02:11:56,276 | INFO | RetrievalPipeline |   Position 13: Chunk_11 +0.0137 (running total: 0.0411)
+2026-05-13 02:11:56,276 | INFO | RetrievalPipeline |   Preview: The following chunk is from the source attention-is-all-you-need.pdf:
+### SEARCH...
+2026-05-13 02:11:56,276 | INFO | RetrievalPipeline |   Position 14: Chunk_14 +0.0135 (running total: 0.0270)
+2026-05-13 02:11:56,276 | INFO | RetrievalPipeline |   Preview: The following chunk is from the source attention-is-all-you-need.pdf:
+**SEARCHAB...
+2026-05-13 02:11:56,276 | INFO | RetrievalPipeline | Processing chunks for query 4 with 15 retrieved documents.
+2026-05-13 02:11:56,276 | INFO | RetrievalPipeline |   Position 1: Chunk_3 +0.0164 (running total: 0.0645)
+2026-05-13 02:11:56,276 | INFO | RetrievalPipeline |   Preview: The following chunk is from the source attention-is-all-you-need.pdf:
+3
+
+2023
+
+2...
+2026-05-13 02:11:56,276 | INFO | RetrievalPipeline |   Position 2: Chunk_1 +0.0161 (running total: 0.0643)
+2026-05-13 02:11:56,276 | INFO | RetrievalPipeline |   Preview: The following chunk is from the source attention-is-all-you-need.pdf:
+### SEARCH...
+2026-05-13 02:11:56,276 | INFO | RetrievalPipeline |   Position 3: Chunk_4 +0.0159 (running total: 0.0633)
+2026-05-13 02:11:56,277 | INFO | RetrievalPipeline |   Preview: The following chunk is from the source attention-is-all-you-need.pdf:
+3.2.3 Appl...
+2026-05-13 02:11:56,277 | INFO | RetrievalPipeline |   Position 4: Chunk_13 +0.0156 (running total: 0.0438)
+2026-05-13 02:11:56,277 | INFO | RetrievalPipeline |   Preview: The following chunk is from the source attention-is-all-you-need.pdf:
+**SEARCHAB...
+2026-05-13 02:11:56,277 | INFO | RetrievalPipeline |   Position 5: Chunk_2 +0.0154 (running total: 0.0638)
+2026-05-13 02:11:56,277 | INFO | RetrievalPipeline |   Preview: The following chunk is from the source attention-is-all-you-need.pdf:
+### SEARCH...
+2026-05-13 02:11:56,277 | INFO | RetrievalPipeline |   Position 6: Chunk_7 +0.0152 (running total: 0.0595)
+2026-05-13 02:11:56,277 | INFO | RetrievalPipeline |   Preview: The following chunk is from the source attention-is-all-you-need.pdf:
+As side be...
+2026-05-13 02:11:56,277 | INFO | RetrievalPipeline |   Position 7: Chunk_6 +0.0149 (running total: 0.0606)
+2026-05-13 02:11:56,277 | INFO | RetrievalPipeline |   Preview: The following chunk is from the source attention-is-all-you-need.pdf:
+3.2.1 Scal...
+2026-05-13 02:11:56,277 | INFO | RetrievalPipeline |   Position 8: Chunk_17 +0.0147 (running total: 0.0282)
+2026-05-13 02:11:56,277 | INFO | RetrievalPipeline |   Preview: The following chunk is from the source attention-is-all-you-need.pdf:
+[16] Łukas...
+2026-05-13 02:11:56,277 | INFO | RetrievalPipeline |   Position 9: Chunk_9 +0.0145 (running total: 0.0584)
+2026-05-13 02:11:56,277 | INFO | RetrievalPipeline |   Preview: The following chunk is from the source attention-is-all-you-need.pdf:
+3.1 Encode...
+2026-05-13 02:11:56,277 | INFO | RetrievalPipeline |   Position 10: Chunk_5 +0.0143 (running total: 0.0593)
+2026-05-13 02:11:56,277 | INFO | RetrievalPipeline |   Preview: The following chunk is from the source attention-is-all-you-need.pdf:
+3.2.2 Mult...
+2026-05-13 02:11:56,277 | INFO | RetrievalPipeline |   Position 11: Chunk_18 +0.0141 (running total: 0.0141)
+2026-05-13 02:11:56,277 | INFO | RetrievalPipeline |   Preview: The following chunk is from the source attention-is-all-you-need.pdf:
+7 Conclusi...
+2026-05-13 02:11:56,277 | INFO | RetrievalPipeline |   Position 12: Chunk_12 +0.0139 (running total: 0.0278)
+2026-05-13 02:11:56,277 | INFO | RetrievalPipeline |   Preview: The following chunk is from the source attention-is-all-you-need.pdf:
+**Searchab...
+2026-05-13 02:11:56,277 | INFO | RetrievalPipeline |   Position 13: Chunk_10 +0.0137 (running total: 0.0564)
+2026-05-13 02:11:56,277 | INFO | RetrievalPipeline |   Preview: The following chunk is from the source attention-is-all-you-need.pdf:
+4 Why Self...
+2026-05-13 02:11:56,277 | INFO | RetrievalPipeline |   Position 14: Chunk_19 +0.0135 (running total: 0.0135)
+2026-05-13 02:11:56,277 | INFO | RetrievalPipeline |   Preview: The following chunk is from the source attention-is-all-you-need.pdf:
+3.5 Positi...
+2026-05-13 02:11:56,277 | INFO | RetrievalPipeline |   Position 15: Chunk_16 +0.0133 (running total: 0.0411)
+2026-05-13 02:11:56,277 | INFO | RetrievalPipeline |   Preview: The following chunk is from the source attention-is-all-you-need.pdf:
+6 Results
+...
+2026-05-13 02:11:56,277 | INFO | RetrievalPipeline | Processing chunks for query 5 with 14 retrieved documents.
+2026-05-13 02:11:56,277 | INFO | RetrievalPipeline |   Position 1: Chunk_1 +0.0164 (running total: 0.0807)
+2026-05-13 02:11:56,277 | INFO | RetrievalPipeline |   Preview: The following chunk is from the source attention-is-all-you-need.pdf:
+### SEARCH...
+2026-05-13 02:11:56,279 | INFO | RetrievalPipeline |   Position 2: Chunk_3 +0.0161 (running total: 0.0807)
+2026-05-13 02:11:56,279 | INFO | RetrievalPipeline |   Preview: The following chunk is from the source attention-is-all-you-need.pdf:
+3
+
+2023
+
+2...
+2026-05-13 02:11:56,279 | INFO | RetrievalPipeline |   Position 3: Chunk_4 +0.0159 (running total: 0.0791)
+2026-05-13 02:11:56,279 | INFO | RetrievalPipeline |   Preview: The following chunk is from the source attention-is-all-you-need.pdf:
+3.2.3 Appl...
+2026-05-13 02:11:56,279 | INFO | RetrievalPipeline |   Position 4: Chunk_5 +0.0156 (running total: 0.0750)
+2026-05-13 02:11:56,279 | INFO | RetrievalPipeline |   Preview: The following chunk is from the source attention-is-all-you-need.pdf:
+3.2.2 Mult...
+2026-05-13 02:11:56,279 | INFO | RetrievalPipeline |   Position 5: Chunk_8 +0.0154 (running total: 0.0602)
+2026-05-13 02:11:56,279 | INFO | RetrievalPipeline |   Preview: The following chunk is from the source attention-is-all-you-need.pdf:
+2 Backgrou...
+2026-05-13 02:11:56,282 | INFO | RetrievalPipeline |   Position 6: Chunk_2 +0.0152 (running total: 0.0789)
+2026-05-13 02:11:56,283 | INFO | RetrievalPipeline |   Preview: The following chunk is from the source attention-is-all-you-need.pdf:
+### SEARCH...
+2026-05-13 02:11:56,283 | INFO | RetrievalPipeline |   Position 7: Chunk_6 +0.0149 (running total: 0.0755)
+2026-05-13 02:11:56,283 | INFO | RetrievalPipeline |   Preview: The following chunk is from the source attention-is-all-you-need.pdf:
+3.2.1 Scal...
+2026-05-13 02:11:56,283 | INFO | RetrievalPipeline |   Position 8: Chunk_17 +0.0147 (running total: 0.0429)
+2026-05-13 02:11:56,283 | INFO | RetrievalPipeline |   Preview: The following chunk is from the source attention-is-all-you-need.pdf:
+[16] Łukas...
+2026-05-13 02:11:56,283 | INFO | RetrievalPipeline |   Position 9: Chunk_7 +0.0145 (running total: 0.0740)
+2026-05-13 02:11:56,283 | INFO | RetrievalPipeline |   Preview: The following chunk is from the source attention-is-all-you-need.pdf:
+As side be...
+2026-05-13 02:11:56,283 | INFO | RetrievalPipeline |   Position 10: Chunk_10 +0.0143 (running total: 0.0706)
+2026-05-13 02:11:56,283 | INFO | RetrievalPipeline |   Preview: The following chunk is from the source attention-is-all-you-need.pdf:
+4 Why Self...
+2026-05-13 02:11:56,283 | INFO | RetrievalPipeline |   Position 11: Chunk_14 +0.0141 (running total: 0.0411)
+2026-05-13 02:11:56,283 | INFO | RetrievalPipeline |   Preview: The following chunk is from the source attention-is-all-you-need.pdf:
+**SEARCHAB...
+2026-05-13 02:11:56,283 | INFO | RetrievalPipeline |   Position 12: Chunk_15 +0.0139 (running total: 0.0417)
+2026-05-13 02:11:56,283 | INFO | RetrievalPipeline |   Preview: The following chunk is from the source attention-is-all-you-need.pdf:
+**SEARCHAB...
+2026-05-13 02:11:56,283 | INFO | RetrievalPipeline |   Position 13: Chunk_13 +0.0137 (running total: 0.0575)
+2026-05-13 02:11:56,283 | INFO | RetrievalPipeline |   Preview: The following chunk is from the source attention-is-all-you-need.pdf:
+**SEARCHAB...
+2026-05-13 02:11:56,283 | INFO | RetrievalPipeline |   Position 14: Chunk_11 +0.0135 (running total: 0.0546)
+2026-05-13 02:11:56,283 | INFO | RetrievalPipeline |   Preview: The following chunk is from the source attention-is-all-you-need.pdf:
+### SEARCH...
+2026-05-13 02:11:56,283 | INFO | RetrievalPipeline | ✅ RRF Complete! Selected 19 unique chunks from 5 queries.
+2026-05-13 02:11:56,290 | INFO | RetrievalPipeline | Reranking chunks...
+2026-05-13 02:14:55,240 | INFO | src.backend.utils.utils | Check for files in docs directory: ['attention-is-all-you-need.pdf']
+2026-05-13 02:14:55,247 | INFO | IngestionPipeline | Files already embedded in vectorstore: ['attention-is-all-you-need.pdf']
+2026-05-13 02:14:56,174 | INFO | orchestrator | User Query: what does figure 4 in this paper talk about?
+
+ | Route Decision: rag
+2026-05-13 02:14:57,366 | INFO | query_rewriting_agent | Latest Question: what does figure 4 in this paper talk about?
+
+ | Rewritten Query: What does Figure 4 in the paper "Attention is All You Need" discuss?
+2026-05-13 02:14:57,381 | INFO | RetrievalPipeline | 🚀 Starting retrieval pipeline...
+2026-05-13 02:14:57,381 | INFO | RetrievalPipeline | Creating a hybrid retriever with vector retriever type: similarity_score_threshold...
+2026-05-13 02:14:57,389 | INFO | RetrievalPipeline | ✅ Created a hybrid retriever with vector retriever type: similarity_score_threshold successfully
+2026-05-13 02:14:57,389 | INFO | RetrievalPipeline | Generating query variations using LLM...
+2026-05-13 02:14:57,389 | INFO | RetrievalPipeline | Original Query: What does Figure 4 in the paper "Attention is All You Need" discuss?
+
+2026-05-13 02:14:59,349 | INFO | RetrievalPipeline | Generated Query Variations:
+2026-05-13 02:14:59,349 | INFO | RetrievalPipeline | 1. What does Figure 4 in the paper "Attention is All You Need" discuss?
+2026-05-13 02:14:59,349 | INFO | RetrievalPipeline | 2. Can you explain the content of Figure 4 in "Attention is All You Need"?
+2026-05-13 02:14:59,349 | INFO | RetrievalPipeline | 3. What information is presented in Figure 4 of the "Attention is All You Need" paper?
+2026-05-13 02:14:59,350 | INFO | RetrievalPipeline | 4. What is illustrated in Figure 4 from the paper titled "Attention is All You Need"?
+2026-05-13 02:14:59,350 | INFO | RetrievalPipeline | 5. What key points are shown in Figure 4 of the "Attention is All You Need" research paper?
+2026-05-13 02:14:59,350 | INFO | RetrievalPipeline | Retrieving relevant chunks for query 1: What does Figure 4 in the paper "Attention is All You Need" discuss?
+2026-05-13 02:14:59,932 | INFO | RetrievalPipeline | Retrieving relevant chunks for query 2: Can you explain the content of Figure 4 in "Attention is All You Need"?
+2026-05-13 02:15:01,154 | INFO | RetrievalPipeline | Retrieving relevant chunks for query 3: What information is presented in Figure 4 of the "Attention is All You Need" paper?
+2026-05-13 02:15:01,518 | INFO | RetrievalPipeline | Retrieving relevant chunks for query 4: What is illustrated in Figure 4 from the paper titled "Attention is All You Need"?
+2026-05-13 02:15:01,821 | INFO | RetrievalPipeline | Retrieving relevant chunks for query 5: What key points are shown in Figure 4 of the "Attention is All You Need" research paper?
+2026-05-13 02:15:02,051 | INFO | RetrievalPipeline | Multi-Query Retrieval Complete!
+2026-05-13 02:15:02,051 | INFO | RetrievalPipeline | Processing chunks for query 1 with 14 retrieved documents.
+2026-05-13 02:15:02,051 | INFO | RetrievalPipeline |   Position 1: Chunk_1 +0.0164 (running total: 0.0164)
+2026-05-13 02:15:02,051 | INFO | RetrievalPipeline |   Preview: The following chunk is from the source attention-is-all-you-need.pdf:
+### SEARCH...
+2026-05-13 02:15:02,051 | INFO | RetrievalPipeline |   Position 2: Chunk_2 +0.0161 (running total: 0.0161)
+2026-05-13 02:15:02,051 | INFO | RetrievalPipeline |   Preview: The following chunk is from the source attention-is-all-you-need.pdf:
+### SEARCH...
+2026-05-13 02:15:02,051 | INFO | RetrievalPipeline |   Position 3: Chunk_3 +0.0159 (running total: 0.0159)
+2026-05-13 02:15:02,051 | INFO | RetrievalPipeline |   Preview: The following chunk is from the source attention-is-all-you-need.pdf:
+3
+
+2023
+
+2...
+2026-05-13 02:15:02,051 | INFO | RetrievalPipeline |   Position 4: Chunk_4 +0.0156 (running total: 0.0156)
+2026-05-13 02:15:02,051 | INFO | RetrievalPipeline |   Preview: The following chunk is from the source attention-is-all-you-need.pdf:
+3.2.3 Appl...
+2026-05-13 02:15:02,051 | INFO | RetrievalPipeline |   Position 5: Chunk_5 +0.0154 (running total: 0.0154)
+2026-05-13 02:15:02,051 | INFO | RetrievalPipeline |   Preview: The following chunk is from the source attention-is-all-you-need.pdf:
+3.2.2 Mult...
+2026-05-13 02:15:02,051 | INFO | RetrievalPipeline |   Position 6: Chunk_6 +0.0152 (running total: 0.0152)
+2026-05-13 02:15:02,051 | INFO | RetrievalPipeline |   Preview: The following chunk is from the source attention-is-all-you-need.pdf:
+3.2.1 Scal...
+2026-05-13 02:15:02,051 | INFO | RetrievalPipeline |   Position 7: Chunk_7 +0.0149 (running total: 0.0149)
+2026-05-13 02:15:02,051 | INFO | RetrievalPipeline |   Preview: The following chunk is from the source attention-is-all-you-need.pdf:
+As side be...
+2026-05-13 02:15:02,051 | INFO | RetrievalPipeline |   Position 8: Chunk_8 +0.0147 (running total: 0.0147)
+2026-05-13 02:15:02,051 | INFO | RetrievalPipeline |   Preview: The following chunk is from the source attention-is-all-you-need.pdf:
+2 Backgrou...
+2026-05-13 02:15:02,051 | INFO | RetrievalPipeline |   Position 9: Chunk_9 +0.0145 (running total: 0.0145)
+2026-05-13 02:15:02,051 | INFO | RetrievalPipeline |   Preview: The following chunk is from the source attention-is-all-you-need.pdf:
+3.1 Encode...
+2026-05-13 02:15:02,051 | INFO | RetrievalPipeline |   Position 10: Chunk_10 +0.0143 (running total: 0.0143)
+2026-05-13 02:15:02,051 | INFO | RetrievalPipeline |   Preview: The following chunk is from the source attention-is-all-you-need.pdf:
+4 Why Self...
+2026-05-13 02:15:02,051 | INFO | RetrievalPipeline |   Position 11: Chunk_11 +0.0141 (running total: 0.0141)
+2026-05-13 02:15:02,051 | INFO | RetrievalPipeline |   Preview: The following chunk is from the source attention-is-all-you-need.pdf:
+### SEARCH...
+2026-05-13 02:15:02,051 | INFO | RetrievalPipeline |   Position 12: Chunk_12 +0.0139 (running total: 0.0139)
+2026-05-13 02:15:02,051 | INFO | RetrievalPipeline |   Preview: The following chunk is from the source attention-is-all-you-need.pdf:
+**Searchab...
+2026-05-13 02:15:02,051 | INFO | RetrievalPipeline |   Position 13: Chunk_13 +0.0137 (running total: 0.0137)
+2026-05-13 02:15:02,051 | INFO | RetrievalPipeline |   Preview: The following chunk is from the source attention-is-all-you-need.pdf:
+**SEARCHAB...
+2026-05-13 02:15:02,051 | INFO | RetrievalPipeline |   Position 14: Chunk_14 +0.0135 (running total: 0.0135)
+2026-05-13 02:15:02,051 | INFO | RetrievalPipeline |   Preview: The following chunk is from the source attention-is-all-you-need.pdf:
+**SEARCHAB...
+2026-05-13 02:15:02,051 | INFO | RetrievalPipeline | Processing chunks for query 2 with 15 retrieved documents.
+2026-05-13 02:15:02,051 | INFO | RetrievalPipeline |   Position 1: Chunk_2 +0.0164 (running total: 0.0325)
+2026-05-13 02:15:02,051 | INFO | RetrievalPipeline |   Preview: The following chunk is from the source attention-is-all-you-need.pdf:
+### SEARCH...
+2026-05-13 02:15:02,051 | INFO | RetrievalPipeline |   Position 2: Chunk_4 +0.0161 (running total: 0.0318)
+2026-05-13 02:15:02,051 | INFO | RetrievalPipeline |   Preview: The following chunk is from the source attention-is-all-you-need.pdf:
+3.2.3 Appl...
+2026-05-13 02:15:02,051 | INFO | RetrievalPipeline |   Position 3: Chunk_3 +0.0159 (running total: 0.0317)
+2026-05-13 02:15:02,051 | INFO | RetrievalPipeline |   Preview: The following chunk is from the source attention-is-all-you-need.pdf:
+3
+
+2023
+
+2...
+2026-05-13 02:15:02,052 | INFO | RetrievalPipeline |   Position 4: Chunk_1 +0.0156 (running total: 0.0320)
+2026-05-13 02:15:02,052 | INFO | RetrievalPipeline |   Preview: The following chunk is from the source attention-is-all-you-need.pdf:
+### SEARCH...
+2026-05-13 02:15:02,052 | INFO | RetrievalPipeline |   Position 5: Chunk_6 +0.0154 (running total: 0.0305)
+2026-05-13 02:15:02,052 | INFO | RetrievalPipeline |   Preview: The following chunk is from the source attention-is-all-you-need.pdf:
+3.2.1 Scal...
+2026-05-13 02:15:02,052 | INFO | RetrievalPipeline |   Position 6: Chunk_8 +0.0152 (running total: 0.0299)
+2026-05-13 02:15:02,052 | INFO | RetrievalPipeline |   Preview: The following chunk is from the source attention-is-all-you-need.pdf:
+2 Backgrou...
+2026-05-13 02:15:02,052 | INFO | RetrievalPipeline |   Position 7: Chunk_7 +0.0149 (running total: 0.0299)
+2026-05-13 02:15:02,052 | INFO | RetrievalPipeline |   Preview: The following chunk is from the source attention-is-all-you-need.pdf:
+As side be...
+2026-05-13 02:15:02,052 | INFO | RetrievalPipeline |   Position 8: Chunk_9 +0.0147 (running total: 0.0292)
+2026-05-13 02:15:02,052 | INFO | RetrievalPipeline |   Preview: The following chunk is from the source attention-is-all-you-need.pdf:
+3.1 Encode...
+2026-05-13 02:15:02,052 | INFO | RetrievalPipeline |   Position 9: Chunk_13 +0.0145 (running total: 0.0282)
+2026-05-13 02:15:02,052 | INFO | RetrievalPipeline |   Preview: The following chunk is from the source attention-is-all-you-need.pdf:
+**SEARCHAB...
+2026-05-13 02:15:02,052 | INFO | RetrievalPipeline |   Position 10: Chunk_5 +0.0143 (running total: 0.0297)
+2026-05-13 02:15:02,052 | INFO | RetrievalPipeline |   Preview: The following chunk is from the source attention-is-all-you-need.pdf:
+3.2.2 Mult...
+2026-05-13 02:15:02,052 | INFO | RetrievalPipeline |   Position 11: Chunk_10 +0.0141 (running total: 0.0284)
+2026-05-13 02:15:02,052 | INFO | RetrievalPipeline |   Preview: The following chunk is from the source attention-is-all-you-need.pdf:
+4 Why Self...
+2026-05-13 02:15:02,052 | INFO | RetrievalPipeline |   Position 12: Chunk_15 +0.0139 (running total: 0.0139)
+2026-05-13 02:15:02,052 | INFO | RetrievalPipeline |   Preview: The following chunk is from the source attention-is-all-you-need.pdf:
+**SEARCHAB...
+2026-05-13 02:15:02,052 | INFO | RetrievalPipeline |   Position 13: Chunk_16 +0.0137 (running total: 0.0137)
+2026-05-13 02:15:02,052 | INFO | RetrievalPipeline |   Preview: The following chunk is from the source attention-is-all-you-need.pdf:
+6 Results
+...
+2026-05-13 02:15:02,052 | INFO | RetrievalPipeline |   Position 14: Chunk_17 +0.0135 (running total: 0.0135)
+2026-05-13 02:15:02,052 | INFO | RetrievalPipeline |   Preview: The following chunk is from the source attention-is-all-you-need.pdf:
+[16] Łukas...
+2026-05-13 02:15:02,052 | INFO | RetrievalPipeline |   Position 15: Chunk_11 +0.0133 (running total: 0.0274)
+2026-05-13 02:15:02,052 | INFO | RetrievalPipeline |   Preview: The following chunk is from the source attention-is-all-you-need.pdf:
+### SEARCH...
+2026-05-13 02:15:02,052 | INFO | RetrievalPipeline | Processing chunks for query 3 with 15 retrieved documents.
+2026-05-13 02:15:02,052 | INFO | RetrievalPipeline |   Position 1: Chunk_3 +0.0164 (running total: 0.0481)
+2026-05-13 02:15:02,052 | INFO | RetrievalPipeline |   Preview: The following chunk is from the source attention-is-all-you-need.pdf:
+3
+
+2023
+
+2...
+2026-05-13 02:15:02,052 | INFO | RetrievalPipeline |   Position 2: Chunk_1 +0.0161 (running total: 0.0481)
+2026-05-13 02:15:02,052 | INFO | RetrievalPipeline |   Preview: The following chunk is from the source attention-is-all-you-need.pdf:
+### SEARCH...
+2026-05-13 02:15:02,052 | INFO | RetrievalPipeline |   Position 3: Chunk_4 +0.0159 (running total: 0.0476)
+2026-05-13 02:15:02,052 | INFO | RetrievalPipeline |   Preview: The following chunk is from the source attention-is-all-you-need.pdf:
+3.2.3 Appl...
+2026-05-13 02:15:02,052 | INFO | RetrievalPipeline |   Position 4: Chunk_13 +0.0156 (running total: 0.0438)
+2026-05-13 02:15:02,052 | INFO | RetrievalPipeline |   Preview: The following chunk is from the source attention-is-all-you-need.pdf:
+**SEARCHAB...
+2026-05-13 02:15:02,052 | INFO | RetrievalPipeline |   Position 5: Chunk_2 +0.0154 (running total: 0.0479)
+2026-05-13 02:15:02,052 | INFO | RetrievalPipeline |   Preview: The following chunk is from the source attention-is-all-you-need.pdf:
+### SEARCH...
+2026-05-13 02:15:02,052 | INFO | RetrievalPipeline |   Position 6: Chunk_6 +0.0152 (running total: 0.0457)
+2026-05-13 02:15:02,052 | INFO | RetrievalPipeline |   Preview: The following chunk is from the source attention-is-all-you-need.pdf:
+3.2.1 Scal...
+2026-05-13 02:15:02,052 | INFO | RetrievalPipeline |   Position 7: Chunk_7 +0.0149 (running total: 0.0448)
+2026-05-13 02:15:02,052 | INFO | RetrievalPipeline |   Preview: The following chunk is from the source attention-is-all-you-need.pdf:
+As side be...
+2026-05-13 02:15:02,052 | INFO | RetrievalPipeline |   Position 8: Chunk_9 +0.0147 (running total: 0.0439)
+2026-05-13 02:15:02,052 | INFO | RetrievalPipeline |   Preview: The following chunk is from the source attention-is-all-you-need.pdf:
+3.1 Encode...
+2026-05-13 02:15:02,052 | INFO | RetrievalPipeline |   Position 9: Chunk_17 +0.0145 (running total: 0.0280)
+2026-05-13 02:15:02,052 | INFO | RetrievalPipeline |   Preview: The following chunk is from the source attention-is-all-you-need.pdf:
+[16] Łukas...
+2026-05-13 02:15:02,052 | INFO | RetrievalPipeline |   Position 10: Chunk_5 +0.0143 (running total: 0.0440)
+2026-05-13 02:15:02,052 | INFO | RetrievalPipeline |   Preview: The following chunk is from the source attention-is-all-you-need.pdf:
+3.2.2 Mult...
+2026-05-13 02:15:02,052 | INFO | RetrievalPipeline |   Position 11: Chunk_18 +0.0141 (running total: 0.0141)
+2026-05-13 02:15:02,053 | INFO | RetrievalPipeline |   Preview: The following chunk is from the source attention-is-all-you-need.pdf:
+7 Conclusi...
+2026-05-13 02:15:02,053 | INFO | RetrievalPipeline |   Position 12: Chunk_10 +0.0139 (running total: 0.0423)
+2026-05-13 02:15:02,053 | INFO | RetrievalPipeline |   Preview: The following chunk is from the source attention-is-all-you-need.pdf:
+4 Why Self...
+2026-05-13 02:15:02,053 | INFO | RetrievalPipeline |   Position 13: Chunk_19 +0.0137 (running total: 0.0137)
+2026-05-13 02:15:02,053 | INFO | RetrievalPipeline |   Preview: The following chunk is from the source attention-is-all-you-need.pdf:
+3.5 Positi...
+2026-05-13 02:15:02,053 | INFO | RetrievalPipeline |   Position 14: Chunk_16 +0.0135 (running total: 0.0272)
+2026-05-13 02:15:02,053 | INFO | RetrievalPipeline |   Preview: The following chunk is from the source attention-is-all-you-need.pdf:
+6 Results
+...
+2026-05-13 02:15:02,053 | INFO | RetrievalPipeline |   Position 15: Chunk_15 +0.0133 (running total: 0.0272)
+2026-05-13 02:15:02,053 | INFO | RetrievalPipeline |   Preview: The following chunk is from the source attention-is-all-you-need.pdf:
+**SEARCHAB...
+2026-05-13 02:15:02,053 | INFO | RetrievalPipeline | Processing chunks for query 4 with 14 retrieved documents.
+2026-05-13 02:15:02,053 | INFO | RetrievalPipeline |   Position 1: Chunk_1 +0.0164 (running total: 0.0645)
+2026-05-13 02:15:02,053 | INFO | RetrievalPipeline |   Preview: The following chunk is from the source attention-is-all-you-need.pdf:
+### SEARCH...
+2026-05-13 02:15:02,053 | INFO | RetrievalPipeline |   Position 2: Chunk_2 +0.0161 (running total: 0.0640)
+2026-05-13 02:15:02,053 | INFO | RetrievalPipeline |   Preview: The following chunk is from the source attention-is-all-you-need.pdf:
+### SEARCH...
+2026-05-13 02:15:02,053 | INFO | RetrievalPipeline |   Position 3: Chunk_4 +0.0159 (running total: 0.0635)
+2026-05-13 02:15:02,053 | INFO | RetrievalPipeline |   Preview: The following chunk is from the source attention-is-all-you-need.pdf:
+3.2.3 Appl...
+2026-05-13 02:15:02,053 | INFO | RetrievalPipeline |   Position 4: Chunk_3 +0.0156 (running total: 0.0638)
+2026-05-13 02:15:02,053 | INFO | RetrievalPipeline |   Preview: The following chunk is from the source attention-is-all-you-need.pdf:
+3
+
+2023
+
+2...
+2026-05-13 02:15:02,053 | INFO | RetrievalPipeline |   Position 5: Chunk_5 +0.0154 (running total: 0.0593)
+2026-05-13 02:15:02,053 | INFO | RetrievalPipeline |   Preview: The following chunk is from the source attention-is-all-you-need.pdf:
+3.2.2 Mult...
+2026-05-13 02:15:02,053 | INFO | RetrievalPipeline |   Position 6: Chunk_6 +0.0152 (running total: 0.0608)
+2026-05-13 02:15:02,053 | INFO | RetrievalPipeline |   Preview: The following chunk is from the source attention-is-all-you-need.pdf:
+3.2.1 Scal...
+2026-05-13 02:15:02,053 | INFO | RetrievalPipeline |   Position 7: Chunk_8 +0.0149 (running total: 0.0448)
+2026-05-13 02:15:02,053 | INFO | RetrievalPipeline |   Preview: The following chunk is from the source attention-is-all-you-need.pdf:
+2 Backgrou...
+2026-05-13 02:15:02,053 | INFO | RetrievalPipeline |   Position 8: Chunk_9 +0.0147 (running total: 0.0586)
+2026-05-13 02:15:02,053 | INFO | RetrievalPipeline |   Preview: The following chunk is from the source attention-is-all-you-need.pdf:
+3.1 Encode...
+2026-05-13 02:15:02,053 | INFO | RetrievalPipeline |   Position 9: Chunk_7 +0.0145 (running total: 0.0593)
+2026-05-13 02:15:02,053 | INFO | RetrievalPipeline |   Preview: The following chunk is from the source attention-is-all-you-need.pdf:
+As side be...
+2026-05-13 02:15:02,053 | INFO | RetrievalPipeline |   Position 10: Chunk_10 +0.0143 (running total: 0.0565)
+2026-05-13 02:15:02,053 | INFO | RetrievalPipeline |   Preview: The following chunk is from the source attention-is-all-you-need.pdf:
+4 Why Self...
+2026-05-13 02:15:02,053 | INFO | RetrievalPipeline |   Position 11: Chunk_16 +0.0141 (running total: 0.0413)
+2026-05-13 02:15:02,053 | INFO | RetrievalPipeline |   Preview: The following chunk is from the source attention-is-all-you-need.pdf:
+6 Results
+...
+2026-05-13 02:15:02,053 | INFO | RetrievalPipeline |   Position 12: Chunk_11 +0.0139 (running total: 0.0413)
+2026-05-13 02:15:02,053 | INFO | RetrievalPipeline |   Preview: The following chunk is from the source attention-is-all-you-need.pdf:
+### SEARCH...
+2026-05-13 02:15:02,053 | INFO | RetrievalPipeline |   Position 13: Chunk_15 +0.0137 (running total: 0.0409)
+2026-05-13 02:15:02,053 | INFO | RetrievalPipeline |   Preview: The following chunk is from the source attention-is-all-you-need.pdf:
+**SEARCHAB...
+2026-05-13 02:15:02,053 | INFO | RetrievalPipeline |   Position 14: Chunk_14 +0.0135 (running total: 0.0270)
+2026-05-13 02:15:02,053 | INFO | RetrievalPipeline |   Preview: The following chunk is from the source attention-is-all-you-need.pdf:
+**SEARCHAB...
+2026-05-13 02:15:02,053 | INFO | RetrievalPipeline | Processing chunks for query 5 with 14 retrieved documents.
+2026-05-13 02:15:02,053 | INFO | RetrievalPipeline |   Position 1: Chunk_3 +0.0164 (running total: 0.0802)
+2026-05-13 02:15:02,053 | INFO | RetrievalPipeline |   Preview: The following chunk is from the source attention-is-all-you-need.pdf:
+3
+
+2023
+
+2...
+2026-05-13 02:15:02,053 | INFO | RetrievalPipeline |   Position 2: Chunk_1 +0.0161 (running total: 0.0807)
+2026-05-13 02:15:02,053 | INFO | RetrievalPipeline |   Preview: The following chunk is from the source attention-is-all-you-need.pdf:
+### SEARCH...
+2026-05-13 02:15:02,053 | INFO | RetrievalPipeline |   Position 3: Chunk_4 +0.0159 (running total: 0.0794)
+2026-05-13 02:15:02,053 | INFO | RetrievalPipeline |   Preview: The following chunk is from the source attention-is-all-you-need.pdf:
+3.2.3 Appl...
+2026-05-13 02:15:02,053 | INFO | RetrievalPipeline |   Position 4: Chunk_8 +0.0156 (running total: 0.0604)
+2026-05-13 02:15:02,053 | INFO | RetrievalPipeline |   Preview: The following chunk is from the source attention-is-all-you-need.pdf:
+2 Backgrou...
+2026-05-13 02:15:02,053 | INFO | RetrievalPipeline |   Position 5: Chunk_13 +0.0154 (running total: 0.0592)
+2026-05-13 02:15:02,053 | INFO | RetrievalPipeline |   Preview: The following chunk is from the source attention-is-all-you-need.pdf:
+**SEARCHAB...
+2026-05-13 02:15:02,053 | INFO | RetrievalPipeline |   Position 6: Chunk_2 +0.0152 (running total: 0.0792)
+2026-05-13 02:15:02,053 | INFO | RetrievalPipeline |   Preview: The following chunk is from the source attention-is-all-you-need.pdf:
+### SEARCH...
+2026-05-13 02:15:02,053 | INFO | RetrievalPipeline |   Position 7: Chunk_6 +0.0149 (running total: 0.0758)
+2026-05-13 02:15:02,053 | INFO | RetrievalPipeline |   Preview: The following chunk is from the source attention-is-all-you-need.pdf:
+3.2.1 Scal...
+2026-05-13 02:15:02,053 | INFO | RetrievalPipeline |   Position 8: Chunk_17 +0.0147 (running total: 0.0427)
+2026-05-13 02:15:02,053 | INFO | RetrievalPipeline |   Preview: The following chunk is from the source attention-is-all-you-need.pdf:
+[16] Łukas...
+2026-05-13 02:15:02,053 | INFO | RetrievalPipeline |   Position 9: Chunk_7 +0.0145 (running total: 0.0738)
+2026-05-13 02:15:02,053 | INFO | RetrievalPipeline |   Preview: The following chunk is from the source attention-is-all-you-need.pdf:
+As side be...
+2026-05-13 02:15:02,053 | INFO | RetrievalPipeline |   Position 10: Chunk_5 +0.0143 (running total: 0.0736)
+2026-05-13 02:15:02,054 | INFO | RetrievalPipeline |   Preview: The following chunk is from the source attention-is-all-you-need.pdf:
+3.2.2 Mult...
+2026-05-13 02:15:02,054 | INFO | RetrievalPipeline |   Position 11: Chunk_10 +0.0141 (running total: 0.0706)
+2026-05-13 02:15:02,054 | INFO | RetrievalPipeline |   Preview: The following chunk is from the source attention-is-all-you-need.pdf:
+4 Why Self...
+2026-05-13 02:15:02,054 | INFO | RetrievalPipeline |   Position 12: Chunk_18 +0.0139 (running total: 0.0280)
+2026-05-13 02:15:02,054 | INFO | RetrievalPipeline |   Preview: The following chunk is from the source attention-is-all-you-need.pdf:
+7 Conclusi...
+2026-05-13 02:15:02,054 | INFO | RetrievalPipeline |   Position 13: Chunk_14 +0.0137 (running total: 0.0407)
+2026-05-13 02:15:02,054 | INFO | RetrievalPipeline |   Preview: The following chunk is from the source attention-is-all-you-need.pdf:
+**SEARCHAB...
+2026-05-13 02:15:02,054 | INFO | RetrievalPipeline |   Position 14: Chunk_15 +0.0135 (running total: 0.0544)
+2026-05-13 02:15:02,054 | INFO | RetrievalPipeline |   Preview: The following chunk is from the source attention-is-all-you-need.pdf:
+**SEARCHAB...
+2026-05-13 02:15:02,054 | INFO | RetrievalPipeline | ✅ RRF Complete! Selected 19 unique chunks from 5 queries.
+2026-05-13 02:15:02,058 | INFO | RetrievalPipeline | Reranking chunks...
+2026-05-13 02:18:33,417 | INFO | src.backend.utils.utils | Check for files in docs directory: ['attention-is-all-you-need.pdf']
+2026-05-13 02:18:33,471 | INFO | IngestionPipeline | 🚀 Starting RAG Ingestion Pipeline...
+2026-05-13 02:18:33,561 | INFO | IngestionPipeline | ✅ Loaded existing vectorstore
+2026-05-13 02:18:33,563 | INFO | IngestionPipeline | ✅ Loaded existing chunks list (25 chunks)
+2026-05-13 02:18:33,564 | INFO | IngestionPipeline | Uploaded files in docs directory: ['attention-is-all-you-need.pdf']
+2026-05-13 02:18:33,749 | INFO | IngestionPipeline | Files already embedded in vectorstore: ['attention-is-all-you-need.pdf']
+2026-05-13 02:18:33,749 | INFO | IngestionPipeline | File attention-is-all-you-need.pdf already embedded - skipping...
+2026-05-13 02:18:33,750 | INFO | IngestionPipeline | 🎉 Pipeline completed successfully!
+2026-05-13 02:18:33,751 | INFO | IngestionPipeline | Files already embedded in vectorstore: ['attention-is-all-you-need.pdf']
+2026-05-13 02:18:33,752 | INFO | IngestionPipeline | Files already embedded in vectorstore: ['attention-is-all-you-need.pdf']
+2026-05-13 02:19:04,042 | INFO | src.backend.utils.utils | Check for files in docs directory: ['attention-is-all-you-need.pdf']
+2026-05-13 02:19:04,059 | INFO | IngestionPipeline | Files already embedded in vectorstore: ['attention-is-all-you-need.pdf']
+2026-05-13 02:19:05,822 | INFO | orchestrator | User Query: what does figure 4 in this paper talk about?
+
+ | Route Decision: rag
+2026-05-13 02:19:06,865 | INFO | query_rewriting_agent | Latest Question: what does figure 4 in this paper talk about?
+
+ | Rewritten Query: What does Figure 4 in the paper "Attention is All You Need" discuss?
+2026-05-13 02:19:06,878 | INFO | RetrievalPipeline | 🚀 Starting retrieval pipeline...
+2026-05-13 02:19:06,878 | INFO | RetrievalPipeline | Creating a hybrid retriever with vector retriever type: similarity_score_threshold...
+2026-05-13 02:19:06,885 | INFO | RetrievalPipeline | ✅ Created a hybrid retriever with vector retriever type: similarity_score_threshold successfully
+2026-05-13 02:19:06,885 | INFO | RetrievalPipeline | Generating query variations using LLM...
+2026-05-13 02:19:06,885 | INFO | RetrievalPipeline | Original Query: What does Figure 4 in the paper "Attention is All You Need" discuss?
+
+2026-05-13 02:19:08,786 | INFO | RetrievalPipeline | Generated Query Variations:
+2026-05-13 02:19:08,786 | INFO | RetrievalPipeline | 1. What does Figure 4 in the paper "Attention is All You Need" discuss?
+2026-05-13 02:19:08,786 | INFO | RetrievalPipeline | 2. Can you explain the content of Figure 4 in "Attention is All You Need"?
+2026-05-13 02:19:08,786 | INFO | RetrievalPipeline | 3. What information is presented in Figure 4 of the "Attention is All You Need" paper?
+2026-05-13 02:19:08,786 | INFO | RetrievalPipeline | 4. What is illustrated in Figure 4 from the paper titled "Attention is All You Need"?
+2026-05-13 02:19:08,786 | INFO | RetrievalPipeline | 5. What key points are shown in Figure 4 of the "Attention is All You Need" research paper?
+2026-05-13 02:19:08,786 | INFO | RetrievalPipeline | Retrieving relevant chunks for query 1: What does Figure 4 in the paper "Attention is All You Need" discuss?
+2026-05-13 02:19:09,116 | INFO | RetrievalPipeline | Retrieving relevant chunks for query 2: Can you explain the content of Figure 4 in "Attention is All You Need"?
+2026-05-13 02:19:09,341 | INFO | RetrievalPipeline | Retrieving relevant chunks for query 3: What information is presented in Figure 4 of the "Attention is All You Need" paper?
+2026-05-13 02:19:09,865 | INFO | RetrievalPipeline | Retrieving relevant chunks for query 4: What is illustrated in Figure 4 from the paper titled "Attention is All You Need"?
+2026-05-13 02:19:10,089 | INFO | RetrievalPipeline | Retrieving relevant chunks for query 5: What key points are shown in Figure 4 of the "Attention is All You Need" research paper?
+2026-05-13 02:19:10,353 | INFO | RetrievalPipeline | Multi-Query Retrieval Complete!
+2026-05-13 02:19:10,353 | INFO | RetrievalPipeline | Processing chunks for query 1 with 14 retrieved documents.
+2026-05-13 02:19:10,354 | INFO | RetrievalPipeline |   Position 1: Chunk_1 +0.0164 (running total: 0.0164)
+2026-05-13 02:19:10,354 | INFO | RetrievalPipeline |   Preview: The following chunk is from the source attention-is-all-you-need.pdf:
+### SEARCH...
+2026-05-13 02:19:10,354 | INFO | RetrievalPipeline |   Position 2: Chunk_2 +0.0161 (running total: 0.0161)
+2026-05-13 02:19:10,354 | INFO | RetrievalPipeline |   Preview: The following chunk is from the source attention-is-all-you-need.pdf:
+### SEARCH...
+2026-05-13 02:19:10,354 | INFO | RetrievalPipeline |   Position 3: Chunk_3 +0.0159 (running total: 0.0159)
+2026-05-13 02:19:10,354 | INFO | RetrievalPipeline |   Preview: The following chunk is from the source attention-is-all-you-need.pdf:
+3
+
+2023
+
+2...
+2026-05-13 02:19:10,354 | INFO | RetrievalPipeline |   Position 4: Chunk_4 +0.0156 (running total: 0.0156)
+2026-05-13 02:19:10,354 | INFO | RetrievalPipeline |   Preview: The following chunk is from the source attention-is-all-you-need.pdf:
+3.2.3 Appl...
+2026-05-13 02:19:10,354 | INFO | RetrievalPipeline |   Position 5: Chunk_5 +0.0154 (running total: 0.0154)
+2026-05-13 02:19:10,354 | INFO | RetrievalPipeline |   Preview: The following chunk is from the source attention-is-all-you-need.pdf:
+3.2.2 Mult...
+2026-05-13 02:19:10,354 | INFO | RetrievalPipeline |   Position 6: Chunk_6 +0.0152 (running total: 0.0152)
+2026-05-13 02:19:10,354 | INFO | RetrievalPipeline |   Preview: The following chunk is from the source attention-is-all-you-need.pdf:
+3.2.1 Scal...
+2026-05-13 02:19:10,354 | INFO | RetrievalPipeline |   Position 7: Chunk_7 +0.0149 (running total: 0.0149)
+2026-05-13 02:19:10,354 | INFO | RetrievalPipeline |   Preview: The following chunk is from the source attention-is-all-you-need.pdf:
+As side be...
+2026-05-13 02:19:10,354 | INFO | RetrievalPipeline |   Position 8: Chunk_8 +0.0147 (running total: 0.0147)
+2026-05-13 02:19:10,354 | INFO | RetrievalPipeline |   Preview: The following chunk is from the source attention-is-all-you-need.pdf:
+2 Backgrou...
+2026-05-13 02:19:10,354 | INFO | RetrievalPipeline |   Position 9: Chunk_9 +0.0145 (running total: 0.0145)
+2026-05-13 02:19:10,354 | INFO | RetrievalPipeline |   Preview: The following chunk is from the source attention-is-all-you-need.pdf:
+3.1 Encode...
+2026-05-13 02:19:10,354 | INFO | RetrievalPipeline |   Position 10: Chunk_10 +0.0143 (running total: 0.0143)
+2026-05-13 02:19:10,354 | INFO | RetrievalPipeline |   Preview: The following chunk is from the source attention-is-all-you-need.pdf:
+4 Why Self...
+2026-05-13 02:19:10,354 | INFO | RetrievalPipeline |   Position 11: Chunk_11 +0.0141 (running total: 0.0141)
+2026-05-13 02:19:10,354 | INFO | RetrievalPipeline |   Preview: The following chunk is from the source attention-is-all-you-need.pdf:
+### SEARCH...
+2026-05-13 02:19:10,354 | INFO | RetrievalPipeline |   Position 12: Chunk_12 +0.0139 (running total: 0.0139)
+2026-05-13 02:19:10,354 | INFO | RetrievalPipeline |   Preview: The following chunk is from the source attention-is-all-you-need.pdf:
+**Searchab...
+2026-05-13 02:19:10,354 | INFO | RetrievalPipeline |   Position 13: Chunk_13 +0.0137 (running total: 0.0137)
+2026-05-13 02:19:10,354 | INFO | RetrievalPipeline |   Preview: The following chunk is from the source attention-is-all-you-need.pdf:
+**SEARCHAB...
+2026-05-13 02:19:10,355 | INFO | RetrievalPipeline |   Position 14: Chunk_14 +0.0135 (running total: 0.0135)
+2026-05-13 02:19:10,355 | INFO | RetrievalPipeline |   Preview: The following chunk is from the source attention-is-all-you-need.pdf:
+**SEARCHAB...
+2026-05-13 02:19:10,355 | INFO | RetrievalPipeline | Processing chunks for query 2 with 15 retrieved documents.
+2026-05-13 02:19:10,355 | INFO | RetrievalPipeline |   Position 1: Chunk_2 +0.0164 (running total: 0.0325)
+2026-05-13 02:19:10,355 | INFO | RetrievalPipeline |   Preview: The following chunk is from the source attention-is-all-you-need.pdf:
+### SEARCH...
+2026-05-13 02:19:10,355 | INFO | RetrievalPipeline |   Position 2: Chunk_4 +0.0161 (running total: 0.0318)
+2026-05-13 02:19:10,355 | INFO | RetrievalPipeline |   Preview: The following chunk is from the source attention-is-all-you-need.pdf:
+3.2.3 Appl...
+2026-05-13 02:19:10,355 | INFO | RetrievalPipeline |   Position 3: Chunk_3 +0.0159 (running total: 0.0317)
+2026-05-13 02:19:10,355 | INFO | RetrievalPipeline |   Preview: The following chunk is from the source attention-is-all-you-need.pdf:
+3
+
+2023
+
+2...
+2026-05-13 02:19:10,355 | INFO | RetrievalPipeline |   Position 4: Chunk_1 +0.0156 (running total: 0.0320)
+2026-05-13 02:19:10,355 | INFO | RetrievalPipeline |   Preview: The following chunk is from the source attention-is-all-you-need.pdf:
+### SEARCH...
+2026-05-13 02:19:10,355 | INFO | RetrievalPipeline |   Position 5: Chunk_6 +0.0154 (running total: 0.0305)
+2026-05-13 02:19:10,355 | INFO | RetrievalPipeline |   Preview: The following chunk is from the source attention-is-all-you-need.pdf:
+3.2.1 Scal...
+2026-05-13 02:19:10,355 | INFO | RetrievalPipeline |   Position 6: Chunk_8 +0.0152 (running total: 0.0299)
+2026-05-13 02:19:10,355 | INFO | RetrievalPipeline |   Preview: The following chunk is from the source attention-is-all-you-need.pdf:
+2 Backgrou...
+2026-05-13 02:19:10,355 | INFO | RetrievalPipeline |   Position 7: Chunk_7 +0.0149 (running total: 0.0299)
+2026-05-13 02:19:10,355 | INFO | RetrievalPipeline |   Preview: The following chunk is from the source attention-is-all-you-need.pdf:
+As side be...
+2026-05-13 02:19:10,355 | INFO | RetrievalPipeline |   Position 8: Chunk_9 +0.0147 (running total: 0.0292)
+2026-05-13 02:19:10,355 | INFO | RetrievalPipeline |   Preview: The following chunk is from the source attention-is-all-you-need.pdf:
+3.1 Encode...
+2026-05-13 02:19:10,355 | INFO | RetrievalPipeline |   Position 9: Chunk_13 +0.0145 (running total: 0.0282)
+2026-05-13 02:19:10,355 | INFO | RetrievalPipeline |   Preview: The following chunk is from the source attention-is-all-you-need.pdf:
+**SEARCHAB...
+2026-05-13 02:19:10,355 | INFO | RetrievalPipeline |   Position 10: Chunk_5 +0.0143 (running total: 0.0297)
+2026-05-13 02:19:10,355 | INFO | RetrievalPipeline |   Preview: The following chunk is from the source attention-is-all-you-need.pdf:
+3.2.2 Mult...
+2026-05-13 02:19:10,355 | INFO | RetrievalPipeline |   Position 11: Chunk_10 +0.0141 (running total: 0.0284)
+2026-05-13 02:19:10,355 | INFO | RetrievalPipeline |   Preview: The following chunk is from the source attention-is-all-you-need.pdf:
+4 Why Self...
+2026-05-13 02:19:10,355 | INFO | RetrievalPipeline |   Position 12: Chunk_15 +0.0139 (running total: 0.0139)
+2026-05-13 02:19:10,355 | INFO | RetrievalPipeline |   Preview: The following chunk is from the source attention-is-all-you-need.pdf:
+**SEARCHAB...
+2026-05-13 02:19:10,355 | INFO | RetrievalPipeline |   Position 13: Chunk_16 +0.0137 (running total: 0.0137)
+2026-05-13 02:19:10,355 | INFO | RetrievalPipeline |   Preview: The following chunk is from the source attention-is-all-you-need.pdf:
+6 Results
+...
+2026-05-13 02:19:10,355 | INFO | RetrievalPipeline |   Position 14: Chunk_17 +0.0135 (running total: 0.0135)
+2026-05-13 02:19:10,355 | INFO | RetrievalPipeline |   Preview: The following chunk is from the source attention-is-all-you-need.pdf:
+[16] Łukas...
+2026-05-13 02:19:10,355 | INFO | RetrievalPipeline |   Position 15: Chunk_11 +0.0133 (running total: 0.0274)
+2026-05-13 02:19:10,355 | INFO | RetrievalPipeline |   Preview: The following chunk is from the source attention-is-all-you-need.pdf:
+### SEARCH...
+2026-05-13 02:19:10,355 | INFO | RetrievalPipeline | Processing chunks for query 3 with 15 retrieved documents.
+2026-05-13 02:19:10,355 | INFO | RetrievalPipeline |   Position 1: Chunk_3 +0.0164 (running total: 0.0481)
+2026-05-13 02:19:10,355 | INFO | RetrievalPipeline |   Preview: The following chunk is from the source attention-is-all-you-need.pdf:
+3
+
+2023
+
+2...
+2026-05-13 02:19:10,355 | INFO | RetrievalPipeline |   Position 2: Chunk_1 +0.0161 (running total: 0.0481)
+2026-05-13 02:19:10,355 | INFO | RetrievalPipeline |   Preview: The following chunk is from the source attention-is-all-you-need.pdf:
+### SEARCH...
+2026-05-13 02:19:10,356 | INFO | RetrievalPipeline |   Position 3: Chunk_4 +0.0159 (running total: 0.0476)
+2026-05-13 02:19:10,356 | INFO | RetrievalPipeline |   Preview: The following chunk is from the source attention-is-all-you-need.pdf:
+3.2.3 Appl...
+2026-05-13 02:19:10,356 | INFO | RetrievalPipeline |   Position 4: Chunk_13 +0.0156 (running total: 0.0438)
+2026-05-13 02:19:10,356 | INFO | RetrievalPipeline |   Preview: The following chunk is from the source attention-is-all-you-need.pdf:
+**SEARCHAB...
+2026-05-13 02:19:10,356 | INFO | RetrievalPipeline |   Position 5: Chunk_2 +0.0154 (running total: 0.0479)
+2026-05-13 02:19:10,356 | INFO | RetrievalPipeline |   Preview: The following chunk is from the source attention-is-all-you-need.pdf:
+### SEARCH...
+2026-05-13 02:19:10,356 | INFO | RetrievalPipeline |   Position 6: Chunk_6 +0.0152 (running total: 0.0457)
+2026-05-13 02:19:10,356 | INFO | RetrievalPipeline |   Preview: The following chunk is from the source attention-is-all-you-need.pdf:
+3.2.1 Scal...
+2026-05-13 02:19:10,356 | INFO | RetrievalPipeline |   Position 7: Chunk_7 +0.0149 (running total: 0.0448)
+2026-05-13 02:19:10,356 | INFO | RetrievalPipeline |   Preview: The following chunk is from the source attention-is-all-you-need.pdf:
+As side be...
+2026-05-13 02:19:10,356 | INFO | RetrievalPipeline |   Position 8: Chunk_9 +0.0147 (running total: 0.0439)
+2026-05-13 02:19:10,356 | INFO | RetrievalPipeline |   Preview: The following chunk is from the source attention-is-all-you-need.pdf:
+3.1 Encode...
+2026-05-13 02:19:10,356 | INFO | RetrievalPipeline |   Position 9: Chunk_17 +0.0145 (running total: 0.0280)
+2026-05-13 02:19:10,356 | INFO | RetrievalPipeline |   Preview: The following chunk is from the source attention-is-all-you-need.pdf:
+[16] Łukas...
+2026-05-13 02:19:10,356 | INFO | RetrievalPipeline |   Position 10: Chunk_5 +0.0143 (running total: 0.0440)
+2026-05-13 02:19:10,356 | INFO | RetrievalPipeline |   Preview: The following chunk is from the source attention-is-all-you-need.pdf:
+3.2.2 Mult...
+2026-05-13 02:19:10,356 | INFO | RetrievalPipeline |   Position 11: Chunk_18 +0.0141 (running total: 0.0141)
+2026-05-13 02:19:10,356 | INFO | RetrievalPipeline |   Preview: The following chunk is from the source attention-is-all-you-need.pdf:
+7 Conclusi...
+2026-05-13 02:19:10,356 | INFO | RetrievalPipeline |   Position 12: Chunk_10 +0.0139 (running total: 0.0423)
+2026-05-13 02:19:10,356 | INFO | RetrievalPipeline |   Preview: The following chunk is from the source attention-is-all-you-need.pdf:
+4 Why Self...
+2026-05-13 02:19:10,356 | INFO | RetrievalPipeline |   Position 13: Chunk_19 +0.0137 (running total: 0.0137)
+2026-05-13 02:19:10,356 | INFO | RetrievalPipeline |   Preview: The following chunk is from the source attention-is-all-you-need.pdf:
+3.5 Positi...
+2026-05-13 02:19:10,356 | INFO | RetrievalPipeline |   Position 14: Chunk_16 +0.0135 (running total: 0.0272)
+2026-05-13 02:19:10,356 | INFO | RetrievalPipeline |   Preview: The following chunk is from the source attention-is-all-you-need.pdf:
+6 Results
+...
+2026-05-13 02:19:10,356 | INFO | RetrievalPipeline |   Position 15: Chunk_15 +0.0133 (running total: 0.0272)
+2026-05-13 02:19:10,356 | INFO | RetrievalPipeline |   Preview: The following chunk is from the source attention-is-all-you-need.pdf:
+**SEARCHAB...
+2026-05-13 02:19:10,356 | INFO | RetrievalPipeline | Processing chunks for query 4 with 14 retrieved documents.
+2026-05-13 02:19:10,356 | INFO | RetrievalPipeline |   Position 1: Chunk_1 +0.0164 (running total: 0.0645)
+2026-05-13 02:19:10,356 | INFO | RetrievalPipeline |   Preview: The following chunk is from the source attention-is-all-you-need.pdf:
+### SEARCH...
+2026-05-13 02:19:10,356 | INFO | RetrievalPipeline |   Position 2: Chunk_2 +0.0161 (running total: 0.0640)
+2026-05-13 02:19:10,356 | INFO | RetrievalPipeline |   Preview: The following chunk is from the source attention-is-all-you-need.pdf:
+### SEARCH...
+2026-05-13 02:19:10,356 | INFO | RetrievalPipeline |   Position 3: Chunk_4 +0.0159 (running total: 0.0635)
+2026-05-13 02:19:10,356 | INFO | RetrievalPipeline |   Preview: The following chunk is from the source attention-is-all-you-need.pdf:
+3.2.3 Appl...
+2026-05-13 02:19:10,356 | INFO | RetrievalPipeline |   Position 4: Chunk_3 +0.0156 (running total: 0.0638)
+2026-05-13 02:19:10,356 | INFO | RetrievalPipeline |   Preview: The following chunk is from the source attention-is-all-you-need.pdf:
+3
+
+2023
+
+2...
+2026-05-13 02:19:10,356 | INFO | RetrievalPipeline |   Position 5: Chunk_5 +0.0154 (running total: 0.0593)
+2026-05-13 02:19:10,356 | INFO | RetrievalPipeline |   Preview: The following chunk is from the source attention-is-all-you-need.pdf:
+3.2.2 Mult...
+2026-05-13 02:19:10,356 | INFO | RetrievalPipeline |   Position 6: Chunk_6 +0.0152 (running total: 0.0608)
+2026-05-13 02:19:10,356 | INFO | RetrievalPipeline |   Preview: The following chunk is from the source attention-is-all-you-need.pdf:
+3.2.1 Scal...
+2026-05-13 02:19:10,356 | INFO | RetrievalPipeline |   Position 7: Chunk_8 +0.0149 (running total: 0.0448)
+2026-05-13 02:19:10,356 | INFO | RetrievalPipeline |   Preview: The following chunk is from the source attention-is-all-you-need.pdf:
+2 Backgrou...
+2026-05-13 02:19:10,357 | INFO | RetrievalPipeline |   Position 8: Chunk_9 +0.0147 (running total: 0.0586)
+2026-05-13 02:19:10,357 | INFO | RetrievalPipeline |   Preview: The following chunk is from the source attention-is-all-you-need.pdf:
+3.1 Encode...
+2026-05-13 02:19:10,357 | INFO | RetrievalPipeline |   Position 9: Chunk_7 +0.0145 (running total: 0.0593)
+2026-05-13 02:19:10,357 | INFO | RetrievalPipeline |   Preview: The following chunk is from the source attention-is-all-you-need.pdf:
+As side be...
+2026-05-13 02:19:10,357 | INFO | RetrievalPipeline |   Position 10: Chunk_10 +0.0143 (running total: 0.0565)
+2026-05-13 02:19:10,357 | INFO | RetrievalPipeline |   Preview: The following chunk is from the source attention-is-all-you-need.pdf:
+4 Why Self...
+2026-05-13 02:19:10,357 | INFO | RetrievalPipeline |   Position 11: Chunk_16 +0.0141 (running total: 0.0413)
+2026-05-13 02:19:10,357 | INFO | RetrievalPipeline |   Preview: The following chunk is from the source attention-is-all-you-need.pdf:
+6 Results
+...
+2026-05-13 02:19:10,357 | INFO | RetrievalPipeline |   Position 12: Chunk_11 +0.0139 (running total: 0.0413)
+2026-05-13 02:19:10,357 | INFO | RetrievalPipeline |   Preview: The following chunk is from the source attention-is-all-you-need.pdf:
+### SEARCH...
+2026-05-13 02:19:10,357 | INFO | RetrievalPipeline |   Position 13: Chunk_15 +0.0137 (running total: 0.0409)
+2026-05-13 02:19:10,357 | INFO | RetrievalPipeline |   Preview: The following chunk is from the source attention-is-all-you-need.pdf:
+**SEARCHAB...
+2026-05-13 02:19:10,357 | INFO | RetrievalPipeline |   Position 14: Chunk_14 +0.0135 (running total: 0.0270)
+2026-05-13 02:19:10,357 | INFO | RetrievalPipeline |   Preview: The following chunk is from the source attention-is-all-you-need.pdf:
+**SEARCHAB...
+2026-05-13 02:19:10,357 | INFO | RetrievalPipeline | Processing chunks for query 5 with 14 retrieved documents.
+2026-05-13 02:19:10,357 | INFO | RetrievalPipeline |   Position 1: Chunk_3 +0.0164 (running total: 0.0802)
+2026-05-13 02:19:10,357 | INFO | RetrievalPipeline |   Preview: The following chunk is from the source attention-is-all-you-need.pdf:
+3
+
+2023
+
+2...
+2026-05-13 02:19:10,357 | INFO | RetrievalPipeline |   Position 2: Chunk_1 +0.0161 (running total: 0.0807)
+2026-05-13 02:19:10,357 | INFO | RetrievalPipeline |   Preview: The following chunk is from the source attention-is-all-you-need.pdf:
+### SEARCH...
+2026-05-13 02:19:10,357 | INFO | RetrievalPipeline |   Position 3: Chunk_4 +0.0159 (running total: 0.0794)
+2026-05-13 02:19:10,357 | INFO | RetrievalPipeline |   Preview: The following chunk is from the source attention-is-all-you-need.pdf:
+3.2.3 Appl...
+2026-05-13 02:19:10,357 | INFO | RetrievalPipeline |   Position 4: Chunk_8 +0.0156 (running total: 0.0604)
+2026-05-13 02:19:10,357 | INFO | RetrievalPipeline |   Preview: The following chunk is from the source attention-is-all-you-need.pdf:
+2 Backgrou...
+2026-05-13 02:19:10,357 | INFO | RetrievalPipeline |   Position 5: Chunk_13 +0.0154 (running total: 0.0592)
+2026-05-13 02:19:10,357 | INFO | RetrievalPipeline |   Preview: The following chunk is from the source attention-is-all-you-need.pdf:
+**SEARCHAB...
+2026-05-13 02:19:10,357 | INFO | RetrievalPipeline |   Position 6: Chunk_2 +0.0152 (running total: 0.0792)
+2026-05-13 02:19:10,357 | INFO | RetrievalPipeline |   Preview: The following chunk is from the source attention-is-all-you-need.pdf:
+### SEARCH...
+2026-05-13 02:19:10,357 | INFO | RetrievalPipeline |   Position 7: Chunk_6 +0.0149 (running total: 0.0758)
+2026-05-13 02:19:10,357 | INFO | RetrievalPipeline |   Preview: The following chunk is from the source attention-is-all-you-need.pdf:
+3.2.1 Scal...
+2026-05-13 02:19:10,357 | INFO | RetrievalPipeline |   Position 8: Chunk_17 +0.0147 (running total: 0.0427)
+2026-05-13 02:19:10,357 | INFO | RetrievalPipeline |   Preview: The following chunk is from the source attention-is-all-you-need.pdf:
+[16] Łukas...
+2026-05-13 02:19:10,357 | INFO | RetrievalPipeline |   Position 9: Chunk_7 +0.0145 (running total: 0.0738)
+2026-05-13 02:19:10,357 | INFO | RetrievalPipeline |   Preview: The following chunk is from the source attention-is-all-you-need.pdf:
+As side be...
+2026-05-13 02:19:10,357 | INFO | RetrievalPipeline |   Position 10: Chunk_5 +0.0143 (running total: 0.0736)
+2026-05-13 02:19:10,357 | INFO | RetrievalPipeline |   Preview: The following chunk is from the source attention-is-all-you-need.pdf:
+3.2.2 Mult...
+2026-05-13 02:19:10,357 | INFO | RetrievalPipeline |   Position 11: Chunk_10 +0.0141 (running total: 0.0706)
+2026-05-13 02:19:10,357 | INFO | RetrievalPipeline |   Preview: The following chunk is from the source attention-is-all-you-need.pdf:
+4 Why Self...
+2026-05-13 02:19:10,358 | INFO | RetrievalPipeline |   Position 12: Chunk_18 +0.0139 (running total: 0.0280)
+2026-05-13 02:19:10,358 | INFO | RetrievalPipeline |   Preview: The following chunk is from the source attention-is-all-you-need.pdf:
+7 Conclusi...
+2026-05-13 02:19:10,358 | INFO | RetrievalPipeline |   Position 13: Chunk_14 +0.0137 (running total: 0.0407)
+2026-05-13 02:19:10,358 | INFO | RetrievalPipeline |   Preview: The following chunk is from the source attention-is-all-you-need.pdf:
+**SEARCHAB...
+2026-05-13 02:19:10,358 | INFO | RetrievalPipeline |   Position 14: Chunk_15 +0.0135 (running total: 0.0544)
+2026-05-13 02:19:10,358 | INFO | RetrievalPipeline |   Preview: The following chunk is from the source attention-is-all-you-need.pdf:
+**SEARCHAB...
+2026-05-13 02:19:10,358 | INFO | RetrievalPipeline | ✅ RRF Complete! Selected 19 unique chunks from 5 queries.
+2026-05-13 02:19:10,363 | INFO | RetrievalPipeline | Reranking chunks...
+2026-05-13 02:19:11,102 | INFO | RetrievalPipeline | ✅ Reranking complete! Exported reranked chunks to reranked_chunks.json
+2026-05-13 02:19:11,102 | INFO | RetrievalPipeline | ✅ Retrieval pipeline completed successfully!
+2026-05-13 02:19:11,109 | INFO | ResponseSynthesisPipeline | 🔍 Starting response synthesis...
+2026-05-13 02:19:11,111 | INFO | ResponseSynthesisPipeline | 📄 Constructed prompt for LLM
+2026-05-13 02:19:11,111 | INFO | ResponseSynthesisPipeline | 🖼️ Added image to LLM prompt: /9j/4AAQSk...
+2026-05-13 02:19:11,111 | INFO | ResponseSynthesisPipeline | 🖼️ Added image to LLM prompt: /9j/4AAQSk...
+2026-05-13 02:19:11,111 | INFO | ResponseSynthesisPipeline | 🖼️ Added image to LLM prompt: /9j/4AAQSk...
+2026-05-13 02:19:11,111 | INFO | ResponseSynthesisPipeline | 🖼️ Added image to LLM prompt: /9j/4AAQSk...
+2026-05-13 02:19:11,111 | INFO | ResponseSynthesisPipeline | 🖼️ Added image to LLM prompt: /9j/4AAQSk...
+2026-05-13 02:19:11,111 | INFO | ResponseSynthesisPipeline | 🖼️ Added image to LLM prompt: /9j/4AAQSk...
+2026-05-13 02:19:11,111 | INFO | ResponseSynthesisPipeline | 🖼️ Added image to LLM prompt: /9j/4AAQSk...
+2026-05-13 02:19:16,941 | INFO | ResponseSynthesisPipeline | ✅ Response synthesis completed successfully.
+2026-05-13 02:20:32,592 | INFO | src.backend.utils.utils | Check for files in docs directory: ['attention-is-all-you-need.pdf']
+2026-05-13 02:20:32,601 | INFO | IngestionPipeline | Files already embedded in vectorstore: ['attention-is-all-you-need.pdf']
+2026-05-13 02:20:32,673 | INFO | IngestionPipeline | Deleted 25 chunks from attention-is-all-you-need.pdf
+2026-05-13 02:20:32,674 | INFO | IngestionPipeline | Files already embedded in vectorstore: []
+2026-05-13 02:20:32,674 | INFO | IngestionPipeline | Current files embedded after deletion: []
+2026-05-13 02:20:32,679 | INFO | IngestionPipeline | Removed 25 chunks for: attention-is-all-you-need.pdf from all_chunks.json
+2026-05-13 02:20:32,681 | INFO | IngestionPipeline | Deleted source file from docs: attention-is-all-you-need.pdf
+2026-05-13 02:20:32,681 | INFO | IngestionPipeline | Files already embedded in vectorstore: []
+2026-05-13 02:20:34,708 | INFO | src.backend.utils.utils | Check for files in docs directory: []
