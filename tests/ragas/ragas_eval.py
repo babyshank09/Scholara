@@ -3,11 +3,12 @@ import uuid
 import asyncio
 import json
 from dotenv import load_dotenv
+import shutil
 
 from src.backend.graph.graph import build_eval_workflow
 from src.backend.llm.llm import get_eval_llm
 from src.backend.rag.ingestion_pipeline import IngestionPipeline
-from src.backend.config.logging_config import logging, DEBUG
+from src.backend.config.logging_config import logging, DEBUG, PROJECT_ROOT
 
 from langgraph.graph import StateGraph
 from langchain_core.messages import HumanMessage
@@ -32,21 +33,23 @@ from ragas.embeddings import LangchainEmbeddingsWrapper
 
 load_dotenv()
 
+FAITHFULNESS_THRESHOLD = 0.75
 CURRENT_FILE = os.path.abspath(__file__)
 RAGAS_TEST_ROOT = os.path.dirname(CURRENT_FILE)
 QA_PAIR_PATH = os.path.join(RAGAS_TEST_ROOT, "question_answer_pairs.json")
-SEM = asyncio.Semaphore(10) 
+SEM = asyncio.Semaphore(5) 
 
 
 
 
-def invoke_graph(app: StateGraph, query: str, llm, vectorstore: Chroma) -> dict:
+def invoke_graph(app: StateGraph, query: str, llm, vectorstore: Chroma, current_embedded_filenames) -> dict:
     thread_id = str(uuid.uuid4())
     config = {
         "configurable": {
             "thread_id": thread_id,
             "vectorstore": vectorstore,
             "llm": llm,
+            "current_embedded_files": current_embedded_filenames
         }
     }
 
@@ -77,7 +80,7 @@ def invoke_graph(app: StateGraph, query: str, llm, vectorstore: Chroma) -> dict:
 
 
 
-async def run_eval_graph_task(app: StateGraph, query: str, llm, vectorstore: Chroma) -> dict:
+async def run_eval_graph_task(app: StateGraph, query: str, llm, vectorstore: Chroma, current_embedded_filenames) -> dict:
     async with SEM:
         return await asyncio.to_thread(
             invoke_graph,
@@ -85,11 +88,12 @@ async def run_eval_graph_task(app: StateGraph, query: str, llm, vectorstore: Chr
             query=query,
             llm=llm,
             vectorstore=vectorstore,
+            current_embedded_filenames= current_embedded_filenames
         )
 
 
 
-async def generate_eval_dataset(qa_pair_path: str, output_path: str, ragas_eval_dataset_path: str, vectorstore: Chroma):
+async def generate_eval_dataset(qa_pair_path: str, output_path: str, ragas_eval_dataset_path: str, vectorstore: Chroma, current_embedded_filenames):
     openai_api_key = os.getenv("OPENAI_API_KEY")
     cohere_api_key = os.getenv("CO_API_KEY")
 
@@ -107,7 +111,7 @@ async def generate_eval_dataset(qa_pair_path: str, output_path: str, ragas_eval_
     async with asyncio.TaskGroup() as tg:
         tasks = [
             tg.create_task(
-                run_eval_graph_task(app=app, query=query, llm=llm, vectorstore=vectorstore)
+                run_eval_graph_task(app=app, query=query, llm=llm, vectorstore=vectorstore, current_embedded_filenames=current_embedded_filenames)
             )
             for query in queries
         ]
@@ -151,61 +155,105 @@ def load_dataset(path: str) -> Dataset:
 
 
 def run_ragas_eval_pipeline(output_path: str, ragas_eval_dataset_path: str ):
-    openai_api_key = os.getenv("OPENAI_API_KEY")
+    openai_api_key = os.getenv("OPENAI_API_KEY") 
+
+    DOCS_DIR = os.path.join(PROJECT_ROOT, "docs")
+    DEST_DOC = os.path.join(DOCS_DIR, "test_rag_doc.pdf")
+
+    TEST_DIR = os.path.dirname(RAGAS_TEST_ROOT)
+    TEST_DOC = os.path.join(TEST_DIR, "test_rag_document", "test_rag_doc.pdf")
+
+    if not os.path.exists(DEST_DOC):
+        os.makedirs(DOCS_DIR, exist_ok=True)
+        shutil.copy2(TEST_DOC, DEST_DOC)
+        print(f"📄 Copied PDF → {DEST_DOC}")
+    else:
+        print(f"✅ PDF already present at {DEST_DOC}, skipping copy.")
+
 
     ingestion_pipeline = IngestionPipeline(log= DEBUG, openai_api_key= openai_api_key, eval_mode= True)
     vectorstore = ingestion_pipeline.run_ingestion_pipeline()
+    current_embedded_filenames = ingestion_pipeline.get_embedded_filenames(vectorstore=vectorstore)
 
-    asyncio.run(generate_eval_dataset(
-        qa_pair_path=QA_PAIR_PATH,
-        output_path= output_path,
-        ragas_eval_dataset_path= ragas_eval_dataset_path,
-        vectorstore=vectorstore,
-    )) 
+    try:
 
-    llm = LangchainLLMWrapper(
-        get_eval_llm(openai_key = openai_api_key)
-    )
+        asyncio.run(generate_eval_dataset(
+            qa_pair_path=QA_PAIR_PATH,
+            output_path= output_path,
+            ragas_eval_dataset_path= ragas_eval_dataset_path,
+            vectorstore=vectorstore, 
+            current_embedded_filenames = current_embedded_filenames
+        )) 
 
-    embeddings = LangchainEmbeddingsWrapper(
-        OpenAIEmbeddings(model = "text-embedding-3-small", openai_api_key = openai_api_key) 
-    )
+        llm = LangchainLLMWrapper(
+            get_eval_llm(openai_key = openai_api_key)
+        )
 
-    dataset = load_dataset(path = os.path.join(RAGAS_TEST_ROOT, "ragas_eval_dataset.json"))
-    
-    result = evaluate(
-        dataset=dataset,
-        metrics=[
-            faithfulness,
-            answer_relevancy,
-            context_precision,
-            context_recall,
-        ],
-        llm=llm,
-        embeddings=embeddings,
-    )
-    
+        embeddings = LangchainEmbeddingsWrapper(
+            OpenAIEmbeddings(model = "text-embedding-3-small", openai_api_key = openai_api_key) 
+        )
 
-    df = result.to_pandas()
+        dataset = load_dataset(path = os.path.join(RAGAS_TEST_ROOT, "ragas_eval_dataset.json"))
+        
+        result = evaluate(
+            dataset=dataset,
+            metrics=[
+                faithfulness,
+                answer_relevancy,
+                context_precision,
+                context_recall,
+            ],
+            llm=llm,
+            embeddings=embeddings,
+        )
+        
 
-    ragas_results_filepath = os.path.join(RAGAS_TEST_ROOT, "ragas_results.json")
-    df.to_json(ragas_results_filepath, orient="records", indent=4)
+        df = result.to_pandas()
 
-    aggregate = {
-        "faithfulness":       round(df["faithfulness"].mean(), 4),
-        "answer_relevancy":   round(df["answer_relevancy"].mean(), 4),
-        "context_precision":  round(df["context_precision"].mean(), 4),
-        "context_recall":     round(df["context_recall"].mean(), 4),
-    }
+        ragas_results_filepath = os.path.join(RAGAS_TEST_ROOT, "ragas_results.json")
+        df.to_json(ragas_results_filepath, orient="records", indent=4)
+
+        aggregate = {
+            "faithfulness":       round(df["faithfulness"].mean(), 4),
+            "answer_relevancy":   round(df["answer_relevancy"].mean(), 4),
+            "context_precision":  round(df["context_precision"].mean(), 4),
+            "context_recall":     round(df["context_recall"].mean(), 4),
+        }
+        aggregate_filepath = os.path.join(RAGAS_TEST_ROOT, "ragas_aggregate_scores.json")
+        with open(aggregate_filepath, "w", encoding="utf-8") as f:
+            json.dump(aggregate, f, indent=4)
+
+        print(f"✅ Per-row results → {ragas_results_filepath}")
+        print(f"✅ Aggregate scores → {aggregate_filepath}")
+
+    finally:
+        filename = os.path.basename(DEST_DOC)
+        ingestion_pipeline.delete_chunks_by_source(
+                    vectorstore= vectorstore,
+                    source_filename=filename
+                )
+
+
+
+def test_faithfullness_score():
+    OUTPUT_PATH = os.path.join(RAGAS_TEST_ROOT, "generated_results.json")
+    RAGAS_EVAL_DATASET_PATH = os.path.join(RAGAS_TEST_ROOT, "ragas_eval_dataset.json") 
+
+    run_ragas_eval_pipeline(output_path = OUTPUT_PATH, ragas_eval_dataset_path= RAGAS_EVAL_DATASET_PATH)
+
     aggregate_filepath = os.path.join(RAGAS_TEST_ROOT, "ragas_aggregate_scores.json")
-    with open(aggregate_filepath, "w", encoding="utf-8") as f:
-        json.dump(aggregate, f, indent=4)
+    with open(aggregate_filepath, "r", encoding="utf-8") as f:
+        aggregate_scores = json.load(f)
 
-    print(f"✅ Per-row results → {ragas_results_filepath}")
-    print(f"✅ Aggregate scores → {aggregate_filepath}")
+    faithfulness_score = aggregate_scores["faithfulness"]
 
-    
-   
+    assert faithfulness_score >= FAITHFULNESS_THRESHOLD , (
+        f"❌ Faithfulness score {faithfulness_score:.4f} is below the required "
+        f"threshold of {FAITHFULNESS_THRESHOLD}. PR blocked."
+    )
+
+    print(f"✅ Faithfulness score {faithfulness_score:.4f} passed the threshold of {FAITHFULNESS_THRESHOLD}.")
+
 
 
 
@@ -214,7 +262,8 @@ if __name__ == "__main__":
     OUTPUT_PATH = os.path.join(RAGAS_TEST_ROOT, "generated_results.json")
     RAGAS_EVAL_DATASET_PATH = os.path.join(RAGAS_TEST_ROOT, "ragas_eval_dataset.json") 
 
-    run_ragas_eval_pipeline(output_path = OUTPUT_PATH, ragas_eval_dataset_path= RAGAS_EVAL_DATASET_PATH)
+    # run_ragas_eval_pipeline(output_path = OUTPUT_PATH, ragas_eval_dataset_path= RAGAS_EVAL_DATASET_PATH)
+    test_faithfullness_score()
 
 
 

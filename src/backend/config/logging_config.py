@@ -1,7 +1,7 @@
 import os 
 import logging
 
-DEBUG = True
+DEBUG = False
 CURRENT_FILE = os.path.abspath(__file__)
 PROJECT_ROOT = os.path.dirname(os.path.dirname(CURRENT_FILE))
 LOG_FILE = os.path.join(PROJECT_ROOT, "debugging", "pipeline_logs.log")

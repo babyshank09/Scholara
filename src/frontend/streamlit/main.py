@@ -76,7 +76,6 @@ def load_rag_application():
                 vectorstore=st.session_state.get("vectorstore")
             )
 
-
         st.write(" ")
         st.header("🗑️ Delete File")
         st.session_state["current_embedded_files"] = ingestion_pipeline.get_embedded_filenames(

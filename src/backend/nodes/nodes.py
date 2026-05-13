@@ -92,7 +92,7 @@ class Nodes:
             
             except RateLimitError as e:
                 wait = 60  
-                self.logger.warning(f"⚠️ OpenAI rate limit hit. Waiting {wait}s (attempt {attempt+1}/{max_retries})...")
+                node_logger.warning(f"⚠️ OpenAI rate limit hit. Waiting {wait}s (attempt {attempt+1}/{max_retries})...")
                 time.sleep(wait)
 
 
