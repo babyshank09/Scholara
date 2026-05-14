@@ -18,7 +18,7 @@ Streamlit chat interface.
 
 ## Tech Stack
 - **Orchestration:** LangGraph, LangChain
-- **LLM:** OpenAI GPT-4o / GPT-4o-mini
+- **LLM:** OpenAI GPT-4o-mini
 - **Embeddings:** OpenAI text-embedding-3-small
 - **Reranking:** Cohere Rerank
 - **Vector Store:** ChromaDB
