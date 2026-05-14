@@ -7,7 +7,7 @@ Built with an agentic LangGraph workflow, hybrid retrieval (vector + BM25 +
 Cohere reranking), multimodal ingestion (text, tables, images), and a 
 Streamlit chat interface.   
 
-## Features
+## Features 
 - 🧠 Agentic graph — orchestrator, query rewriter, retriever, and response generation nodes
 - 📄 Multimodal ingestion — extracts text, tables (HTML), and images (base64) from PDFs
 - 🔍 Hybrid retrieval — dense vector search + BM25 + Cohere rerank
