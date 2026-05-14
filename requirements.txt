@@ -223,3 +223,4 @@ langgraph-checkpoint-postgres
 nest_asyncio
 ragas 
 datasets 
+pytest

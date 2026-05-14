@@ -235,7 +235,7 @@ def run_ragas_eval_pipeline(output_path: str, ragas_eval_dataset_path: str ):
 
 
 
-def test_faithfullness_score():
+def test_faithfulness_score():
     OUTPUT_PATH = os.path.join(RAGAS_TEST_ROOT, "generated_results.json")
     RAGAS_EVAL_DATASET_PATH = os.path.join(RAGAS_TEST_ROOT, "ragas_eval_dataset.json") 
 
@@ -263,7 +263,7 @@ if __name__ == "__main__":
     RAGAS_EVAL_DATASET_PATH = os.path.join(RAGAS_TEST_ROOT, "ragas_eval_dataset.json") 
 
     # run_ragas_eval_pipeline(output_path = OUTPUT_PATH, ragas_eval_dataset_path= RAGAS_EVAL_DATASET_PATH)
-    test_faithfullness_score()
+    test_faithfulness_score()
 
 
 
