@@ -24,4 +24,4 @@ Streamlit chat interface.
 - **Vector Store:** ChromaDB
 - **Evaluation:** RAGAS and Abstention Test
 - **Frontend:** Streamlit
-- **Observability:** LangSmith, Langfuse
+- **Observability:** LangSmith
