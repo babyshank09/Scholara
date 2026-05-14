@@ -22,6 +22,6 @@ Streamlit chat interface.
 - **Embeddings:** OpenAI text-embedding-3-small
 - **Reranking:** Cohere Rerank
 - **Vector Store:** ChromaDB
-- **Evaluation:** RAGAS and abstention
+- **Evaluation:** RAGAS and Abstention Test
 - **Frontend:** Streamlit
 - **Observability:** LangSmith, Langfuse
