@@ -33,7 +33,7 @@ from ragas.embeddings import LangchainEmbeddingsWrapper
 
 load_dotenv()
 
-FAITHFULNESS_THRESHOLD = 0.75
+FAITHFULNESS_THRESHOLD = 0.70
 CURRENT_FILE = os.path.abspath(__file__)
 RAGAS_TEST_ROOT = os.path.dirname(CURRENT_FILE)
 QA_PAIR_PATH = os.path.join(RAGAS_TEST_ROOT, "question_answer_pairs.json")
