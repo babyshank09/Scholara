@@ -224,3 +224,4 @@ nest_asyncio
 ragas 
 datasets 
 pytest
+streamlit 
