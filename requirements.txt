@@ -225,4 +225,3 @@ ragas
 datasets 
 pytest
 streamlit 
-guardrails-ai
