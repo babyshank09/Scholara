@@ -4,7 +4,7 @@ from langchain_core.messages import SystemMessage, HumanMessage, AIMessage
 from langchain_core.runnables import RunnableConfig
 from langchain_core.messages import trim_messages                                                       
 
-from src.backend.state.state import State, RouteDecision, QueryRewrite 
+from src.backend.state.state import State, RouteDecision, QueryRewrite, InputGuardrails
 from src.backend.config.logging_config import DEBUG                    
 from src.frontend.utils.utils import format_chat_history               
 from src.backend.rag.retrieval_pipeline import RetrievalPipeline       
@@ -12,6 +12,8 @@ from src.backend.rag.response_synthesis_pipeline import ResponseSynthesisPipelin
 from src.backend.prompts.orchestrator_agent_prompts import orchestrator_agent_prompts
 from src.backend.prompts.response_generation_agent_prompts import response_generation_agent_prompts
 from src.backend.prompts.query_rewriting_agent_prompts import query_rewriting_agent_prompts
+from src.backend.prompts.input_guardrail_prompts import input_guardrail_prompts
+from src.backend.prompts.blocking_agent_prompts import blocking_agent_prompts
 
 
 
@@ -21,6 +23,55 @@ class Nodes:
         self.openai_api_key = openai_api_key
         self.cohere_api_key = cohere_api_key
         self.eval_mode = eval_mode
+
+    
+    def input_guardrails(self, state:State, config: RunnableConfig):
+        user_query = state["messages"][-1].content 
+        llm = config["configurable"]["llm"]
+        input_guardrail_llm = llm.with_structured_output(InputGuardrails)
+
+        system_prompt = input_guardrail_prompts["v4"]
+
+        trimmed_history = trim_messages(
+            state["messages"], 
+            max_tokens = 1000, 
+            token_counter = llm, 
+            strategy = "last", 
+            include_system = True
+        )  
+
+        print(trimmed_history)
+
+        response = input_guardrail_llm.invoke([SystemMessage(content=system_prompt)] + trimmed_history) 
+       
+        node_logger = logging.getLogger("input_guardrails")
+        node_logger.setLevel(logging.INFO if DEBUG else logging.WARNING)
+        node_logger.info("User Query: %s | Guardrails Decision: %s | Blocking Reason: %s", user_query, response.blocked, response.reason)
+
+        return {
+            "input_guardrail_blocked": response.blocked,
+            "input_guardrail_reason": response.reason
+        } 
+        
+     
+
+    @staticmethod
+    def route_from_input_guardrails(state: State) -> str:
+        return "blocking_agent" if state["input_guardrail_blocked"] == True else "orchestrator"
+    
+
+    def blocking_agent(self, state:State, config:RunnableConfig):
+        llm = config["configurable"]["llm"] 
+
+        system_prompt = blocking_agent_prompts["v2"] 
+
+        human_prompt = f"""
+        REASON FOR BLOCKAGE: {state["input_guardrail_reason"]} 
+        """
+
+        response = llm.invoke([SystemMessage(content = system_prompt), HumanMessage(content = human_prompt)]) 
+
+        return {"messages": [AIMessage(content=response.content)]}
 
 
     def orchestrator(self, state: State, config: RunnableConfig):

@@ -32,13 +32,24 @@ class IngestionPipeline:
         self.persist_directory = persist_directory
         self.embeddings = OpenAIEmbeddings(model = "text-embedding-3-small", openai_api_key = openai_api_key) 
         self.log = log
+        
+        debug_dirs = [
+            "debugging/ingestion_stage",
+            "debugging/retrieval_stage",
+            "debugging/response_synthesis_stage",
+        ]
+
+        for path in debug_dirs:
+            os.makedirs(os.path.join(PROJECT_ROOT, path), exist_ok=True)
 
         if eval_mode:
             self.logger.info("Initializing IngestionPipeline in EVAL MODE with detailed logging enabled.")
             self.llm = get_eval_llm(openai_key = openai_api_key)
 
         else:
-            self.llm = get_llm(openai_key = openai_api_key)
+            self.llm = get_llm(openai_key = openai_api_key) 
+
+        
 
 
 

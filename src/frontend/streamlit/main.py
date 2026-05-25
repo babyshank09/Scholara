@@ -131,7 +131,7 @@ def load_rag_application():
         ):
             if (
                 event["event"] == "on_chat_model_stream"
-                and event.get("metadata", {}).get("langgraph_node") == "response_generation_agent"
+                and event.get("metadata", {}).get("langgraph_node") in ("response_generation_agent", "blocking_agent")
             ):
                 chunk = event["data"]["chunk"].content
                 if chunk:
