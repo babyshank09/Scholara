@@ -18,8 +18,8 @@ class State(TypedDict):
 
 
 class RouteDecision(BaseModel):
-    route: Literal["rag", "chat"] = Field(
-        description="Route the query to either rag or chat"
+    route: Literal["rag", "chat", "clarify"] = Field(
+        description="Route the query to rag, chat, or clarify if the query is too vague to answer"
     )
 
 

@@ -104,7 +104,7 @@ def load_rag_application():
     llm = get_llm(openai_key=openai_key)
 
     workflow = build_workflow(openai_api_key = openai_key, cohere_api_key = co_key) 
-    # display_langgraph_image(workflow)
+    display_langgraph_image(workflow)
 
     history = load_chat_history(workflow)  
     display_chat_history(history)
@@ -131,7 +131,7 @@ def load_rag_application():
         ):
             if (
                 event["event"] == "on_chat_model_stream"
-                and event.get("metadata", {}).get("langgraph_node") in ("response_generation_agent", "blocking_agent")
+                and event.get("metadata", {}).get("langgraph_node") in ("response_generation_agent", "blocking_agent", "clarify_agent")
             ):
                 chunk = event["data"]["chunk"].content
                 if chunk:

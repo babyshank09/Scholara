@@ -15,7 +15,8 @@ from src.backend.prompts.response_generation_agent_prompts import response_gener
 from src.backend.prompts.query_rewriting_agent_prompts import query_rewriting_agent_prompts
 from src.backend.prompts.input_guardrail_prompts import input_guardrail_prompts
 from src.backend.prompts.output_guardrail_prompts import output_guardrail_prompts
-from src.backend.prompts.blocking_agent_prompts import blocking_agent_prompts
+from src.backend.prompts.blocking_agent_prompts import blocking_agent_prompts 
+from src.backend.prompts.clarify_agent_prompts import clarify_agent_prompts
 
 
 
@@ -79,10 +80,33 @@ class Nodes:
             REASON FOR BLOCKAGE: {state["output_guardrail_reason"]} 
             """
 
-
-
         response = llm.invoke([SystemMessage(content = system_prompt), HumanMessage(content = human_prompt)]) 
 
+        return {"messages": [AIMessage(content=response.content)]}
+    
+
+
+    def clarify_agent(self, state: State, config: RunnableConfig):
+        node_logger = logging.getLogger("clarify_agent")
+        node_logger.setLevel(logging.INFO if DEBUG else logging.WARNING)
+
+        llm = config["configurable"]["llm"]
+
+        latest_question = state["messages"][-1].content
+
+        system_prompt = clarify_agent_prompts["v1"]
+
+        user_prompt = f"""
+        Latest User Question:
+        {latest_question}
+        """
+
+        response = llm.invoke([
+            SystemMessage(content=system_prompt),
+            HumanMessage(content=user_prompt)
+        ])
+
+        node_logger.info("Clarify agent triggered | Query: %s", latest_question)
         return {"messages": [AIMessage(content=response.content)]}
 
 
@@ -92,12 +116,17 @@ class Nodes:
         llm = config["configurable"]["llm"]
         router_llm = llm.with_structured_output(RouteDecision)
 
-        system_prompt = orchestrator_agent_prompts["v2"]
+        system_prompt = orchestrator_agent_prompts["v3"]
 
-        decision = router_llm.invoke([
-            SystemMessage(content=system_prompt),
-            HumanMessage(content=user_query)
-        ])
+        trimmed_history = trim_messages(
+            state["messages"], 
+            max_tokens = 2000, 
+            token_counter = llm, 
+            strategy = "last", 
+            include_system = True
+        ) 
+
+        decision = router_llm.invoke([SystemMessage(content=system_prompt)] + trimmed_history)
 
         node_logger = logging.getLogger("orchestrator")
         node_logger.setLevel(logging.INFO if DEBUG else logging.WARNING)
@@ -109,7 +138,13 @@ class Nodes:
 
     @staticmethod
     def route_from_orchestrator(state: State) -> str:
-        return "query_rewriting_agent" if state["route"] == "rag" else "response_generation_agent"
+        route = state["route"]
+        if route == "rag":
+            return "query_rewriting_agent"
+        elif route == "clarify":
+            return "clarify_agent"
+        else:
+            return "response_generation_agent"
 
 
 
