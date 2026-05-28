@@ -12,7 +12,9 @@ class State(TypedDict):
     rewritten_query: Optional[str]
     retrieved_docs: Optional[List[Document]]
     input_guardrail_blocked: Optional[bool]
-    input_guardrail_reason: Optional[Literal["injection", "pii", "irrelevant"]]
+    input_guardrail_reason: Optional[Literal["injection", "pii", "irrelevant", "toxic"]] 
+    output_guardrail_blocked: Optional[bool]
+    output_guardrail_reason: Optional[Literal["toxic_response", "pii_leakage"]]
 
 
 class RouteDecision(BaseModel):
@@ -34,5 +36,15 @@ class InputGuardrails(BaseModel):
     reason: Optional[Literal["injection", "pii", "irrelevant", "toxic"]] = Field(
         default=None,
         description="The reason for blocking. 'injection' for jailbreaks or instruction overrides, 'pii' for sensitive personal information like SSNs or credit card numbers, 'irrelevant' for queries completely unrelated to documents or research, 'toxic' for directed insults, hate speech, slurs, or threats. Null if the query is not blocked."
+    )
+
+
+class OutputGuardrails(BaseModel):
+    blocked: bool = Field(
+        description="Whether the response should be blocked. True only if the response contains toxic language, profanity, insults, or hostile language."
+    )
+    reason: Optional[Literal["toxic_response"]] = Field(
+        default=None,
+        description="The reason for blocking. 'toxic_response' for profanity, insults, or hostile language. Null if not blocked."
     )
 

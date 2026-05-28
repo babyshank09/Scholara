@@ -1,10 +1,11 @@
 import logging
+import re
 import streamlit as st
 from langchain_core.messages import SystemMessage, HumanMessage, AIMessage
 from langchain_core.runnables import RunnableConfig
 from langchain_core.messages import trim_messages                                                       
 
-from src.backend.state.state import State, RouteDecision, QueryRewrite, InputGuardrails
+from src.backend.state.state import State, RouteDecision, QueryRewrite, InputGuardrails, OutputGuardrails
 from src.backend.config.logging_config import DEBUG                    
 from src.frontend.utils.utils import format_chat_history               
 from src.backend.rag.retrieval_pipeline import RetrievalPipeline       
@@ -13,6 +14,7 @@ from src.backend.prompts.orchestrator_agent_prompts import orchestrator_agent_pr
 from src.backend.prompts.response_generation_agent_prompts import response_generation_agent_prompts
 from src.backend.prompts.query_rewriting_agent_prompts import query_rewriting_agent_prompts
 from src.backend.prompts.input_guardrail_prompts import input_guardrail_prompts
+from src.backend.prompts.output_guardrail_prompts import output_guardrail_prompts
 from src.backend.prompts.blocking_agent_prompts import blocking_agent_prompts
 
 
@@ -46,7 +48,7 @@ class Nodes:
        
         node_logger = logging.getLogger("input_guardrails")
         node_logger.setLevel(logging.INFO if DEBUG else logging.WARNING)
-        node_logger.info("User Query: %s | Guardrails Decision: %s | Blocking Reason: %s", user_query, response.blocked, response.reason)
+        node_logger.info("User Query: %s | Input Guardrails Decision: %s | Blocking Reason: %s", user_query, response.blocked, response.reason)
 
         return {
             "input_guardrail_blocked": response.blocked,
@@ -60,18 +62,29 @@ class Nodes:
         return "blocking_agent" if state["input_guardrail_blocked"] == True else "orchestrator"
     
 
+
     def blocking_agent(self, state:State, config:RunnableConfig):
         llm = config["configurable"]["llm"] 
 
-        system_prompt = blocking_agent_prompts["v2"] 
+        system_prompt = blocking_agent_prompts["v3"] 
+        
+        if state["input_guardrail_blocked"]:
+            human_prompt = f""" 
+            ASSESSMENT ON HUMAN INPUT:
+            REASON FOR BLOCKAGE: {state["input_guardrail_reason"]} 
+            """
+        elif state["output_guardrail_blocked"]:
+            human_prompt = f""" 
+            ASSESSMENT ON AI OUTPUT:
+            REASON FOR BLOCKAGE: {state["output_guardrail_reason"]} 
+            """
 
-        human_prompt = f"""
-        REASON FOR BLOCKAGE: {state["input_guardrail_reason"]} 
-        """
+
 
         response = llm.invoke([SystemMessage(content = system_prompt), HumanMessage(content = human_prompt)]) 
 
         return {"messages": [AIMessage(content=response.content)]}
+
 
 
     def orchestrator(self, state: State, config: RunnableConfig):
@@ -93,9 +106,11 @@ class Nodes:
         return {"route": decision.route}
 
 
+
     @staticmethod
     def route_from_orchestrator(state: State) -> str:
         return "query_rewriting_agent" if state["route"] == "rag" else "response_generation_agent"
+
 
 
     def query_rewriting_agent(self, state: State, config: RunnableConfig):
@@ -159,6 +174,7 @@ class Nodes:
         return {"retrieved_docs": retrieved_documents}
 
 
+
     def response_generation_agent(self, state: State, config: RunnableConfig):
         llm = config["configurable"]["llm"]
         if state["route"] == "rag":
@@ -180,5 +196,74 @@ class Nodes:
         ) 
 
         response = llm.invoke([SystemMessage(content=system_prompt)] + trimmed_history)
-        return {"messages": [AIMessage(content=response.content)]}
+        return {"messages": [AIMessage(content=response.content)]} 
+
+
+
+    def output_guardrails(self, state:State, config:RunnableConfig):
+        node_logger = logging.getLogger("output_guardrails")
+        node_logger.setLevel(logging.INFO if DEBUG else logging.WARNING)
+
+        response = state["messages"][-1].content
+        llm = config["configurable"]["llm"] 
+
+        pii_patterns = {
+            "SSN":         r'\b\d{3}-\d{2}-\d{4}\b',
+            "credit_card": r'\b(?:\d[ -]?){13,16}\b',
+            "password":    r'(?i)(password|passwd|secret\s*key)\s*[:=]\s*\S+',
+            "bank":        r'(?i)(account\s*number|routing\s*number)\s*[:=]?\s*\d{8,17}',
+        }
+
+        for pii_type, pattern in pii_patterns.items():
+            if re.search(pattern, response):
+                 node_logger.warning("Output guardrail triggered: PII leakage (%s)", pii_type) 
+                 return {
+                     "output_guardrail_blocked" : True,
+                     "output_guardrail_reason": "pii_leakage"
+                 } 
+                
+            
+        output_guardrail_llm = llm.with_structured_output(OutputGuardrails)
+
+        decision = output_guardrail_llm.invoke([
+            SystemMessage(content=output_guardrail_prompts["v1"]),
+            HumanMessage(content=f"Evaluate this response:\n\n{response}")
+        ]) 
+
+        node_logger.info("AI Response: %s | Output Guardrails Decision: %s | Blocking Reason: %s", response, decision.blocked, decision.reason)
+
+        if decision.blocked:
+            return {
+                "output_guardrail_blocked" : decision.blocked,
+                "output_guardrail_reason": decision.reason
+            } 
+        else:
+            return {
+            "output_guardrail_blocked": False,
+            "output_guardrail_reason": None
+        } 
+
+    
+
+    @staticmethod
+    def route_from_output_guardrails(state: State) -> str:
+        return "blocking_agent" if state["output_guardrail_blocked"] == True else "end"
+    
+
+
+
+    
+
+
+        
+
+        
+            
+
+            
+
+        
+
+
+
 

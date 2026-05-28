@@ -37,7 +37,8 @@ def build_workflow(openai_api_key: str, cohere_api_key: str):
     graph.add_node("orchestrator", nodes.orchestrator)
     graph.add_node("query_rewriting_agent", nodes.query_rewriting_agent)
     graph.add_node("retriever_agent", nodes.retriever_agent)
-    graph.add_node("response_generation_agent", nodes.response_generation_agent) 
+    graph.add_node("response_generation_agent", nodes.response_generation_agent)  
+    graph.add_node("output_guardrails", nodes.output_guardrails)
 
     graph.add_edge(START, "input_guardrails")
     graph.add_conditional_edges(
@@ -58,7 +59,16 @@ def build_workflow(openai_api_key: str, cohere_api_key: str):
     )
     graph.add_edge("query_rewriting_agent", "retriever_agent")
     graph.add_edge("retriever_agent", "response_generation_agent")
-    graph.add_edge("response_generation_agent", END) 
+    graph.add_edge("response_generation_agent", "output_guardrails")
+
+    graph.add_conditional_edges(
+        "output_guardrails",
+        nodes.route_from_output_guardrails,
+        {
+            "blocking_agent": "blocking_agent", 
+            "end": END
+        }
+    ) 
     graph.add_edge("blocking_agent", END)
 
     return graph.compile(checkpointer=checkpointer)
@@ -91,4 +101,8 @@ def build_eval_workflow(openai_api_key: str, cohere_api_key: str):
     graph.add_edge("retriever_agent", "response_generation_agent")
     graph.add_edge("response_generation_agent", END)
 
-    return graph.compile(checkpointer=checkpointer)
+    return graph.compile(checkpointer=checkpointer) 
+
+
+
+    
